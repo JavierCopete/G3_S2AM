@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Menu_usuari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_usuari.Designer.cs">
+      <DependentUpon>Menu_usuari.cs</DependentUpon>
+    </Compile>
     <Compile Include="Log_in.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_usuari.resx">
+      <DependentUpon>Menu_usuari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Splash.resx">
       <DependentUpon>Splash.cs</DependentUpon>
@@ -115,6 +124,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\tlr6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36f6a261e5f16319f82287a77a3f0a5d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2020-10-13 165058.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

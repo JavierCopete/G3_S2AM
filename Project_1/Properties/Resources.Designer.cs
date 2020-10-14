@@ -63,6 +63,16 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _36f6a261e5f16319f82287a77a3f0a5d {
+            get {
+                object obj = ResourceManager.GetObject("36f6a261e5f16319f82287a77a3f0a5d", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_02_181147 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2020-10-02 181147", resourceCulture);
@@ -76,6 +86,16 @@ namespace Project_1.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_02_181642 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2020-10-02 181642", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_13_165058 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2020-10-13 165058", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

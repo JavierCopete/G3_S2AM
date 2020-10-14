@@ -9,3 +9,4 @@ C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.csproj.Core
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.exe
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.pdb
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.Log_in.resources
+C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.Menu_usuari.resources
