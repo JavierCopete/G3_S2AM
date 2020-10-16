@@ -1,0 +1,14 @@
+D:\S2AM\M20\Messi_app\bin\Debug\Messi_app.exe.config
+D:\S2AM\M20\Messi_app\bin\Debug\Messi_app.exe
+D:\S2AM\M20\Messi_app\bin\Debug\Messi_app.pdb
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.csprojAssemblyReference.cache
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Properties.Resources.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Splash.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.csproj.GenerateResource.cache
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.csproj.CoreCompileInputs.cache
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.exe
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.pdb
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Admin.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Log.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Menu_usuari.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Menu_MAC.resources
