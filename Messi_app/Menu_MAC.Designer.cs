@@ -45,9 +45,8 @@
             this.textBox1.Location = new System.Drawing.Point(404, 156);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(140, 29);
+            this.textBox1.Size = new System.Drawing.Size(184, 29);
             this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "AC 56765 IO-1";
             // 
             // textBox2
             // 
@@ -55,9 +54,8 @@
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(404, 191);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(161, 26);
+            this.textBox2.Size = new System.Drawing.Size(199, 26);
             this.textBox2.TabIndex = 1;
-            this.textBox2.Text = "JAVA_DE_HUT";
             // 
             // label1
             // 

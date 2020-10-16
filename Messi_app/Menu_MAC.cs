@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,6 +19,7 @@ namespace Messi_app
         {
             InitializeComponent();
 
+          
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -54,7 +57,22 @@ namespace Messi_app
 
         private void Menu_MAC_Load(object sender, EventArgs e)
         {
+            String hostName = Dns.GetHostName();
+            textBox1.Text = hostName;
 
+            string macAddresses = "";
+            foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
+            {
+                if (nic.OperationalStatus == OperationalStatus.Up && (!nic.Description.Contains("Virtual") && !nic.Description.Contains("Pseudo")))
+                {
+                    if (nic.GetPhysicalAddress().ToString() != "")
+                    {
+                        macAddresses = nic.GetPhysicalAddress().ToString();
+                    }
+                }
+            }
+
+            textBox2.Text = macAddresses;
         }
     }
 }
