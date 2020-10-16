@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomControl1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomControl1.Designer.cs">
+      <DependentUpon>CustomControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CustomControl1.resx">
+      <DependentUpon>CustomControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
     </EmbeddedResource>
@@ -130,6 +139,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2020-10-13 165058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_de_pantalla_2020-10-13_165058-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_de_pantalla_2020-10-13_165058-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pixelart-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_TLR1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\85-850227_r2d2-pixel-art-star-wars-r2d2-clipart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tlr61.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

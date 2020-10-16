@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Menu_usuari : Form
+    public partial class CustomControl1 : Control
     {
-        public Menu_usuari()
+        public CustomControl1()
         {
             InitializeComponent();
         }
 
-        private void pictureBox5_Click(object sender, EventArgs e)
+        protected override void OnPaint(PaintEventArgs pe)
         {
-
+            base.OnPaint(pe);
         }
     }
 }

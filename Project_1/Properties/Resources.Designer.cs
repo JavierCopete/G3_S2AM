@@ -73,6 +73,16 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _85_850227_r2d2_pixel_art_star_wars_r2d2_clipart {
+            get {
+                object obj = ResourceManager.GetObject("85-850227_r2d2-pixel-art-star-wars-r2d2-clipart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_02_181147 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2020-10-02 181147", resourceCulture);
@@ -103,6 +113,26 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_13_165058_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Captura_de_pantalla_2020-10-13_165058-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2020_10_13_165058_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Captura_de_pantalla_2020-10-13_165058-removebg-preview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo {
             get {
                 object obj = ResourceManager.GetObject("logo", resourceCulture);
@@ -123,9 +153,29 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Logo_TLR1 {
+            get {
+                object obj = ResourceManager.GetObject("Logo_TLR1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap macro_de_la_textura_de_la_peladura_de_zanahoria_45875646__2_ {
             get {
                 object obj = ResourceManager.GetObject("macro-de-la-textura-de-la-peladura-de-zanahoria-45875646 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pixelart_11 {
+            get {
+                object obj = ResourceManager.GetObject("pixelart-11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +216,26 @@ namespace Project_1.Properties {
         internal static System.Drawing.Bitmap tlr6 {
             get {
                 object obj = ResourceManager.GetObject("tlr6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tlr61 {
+            get {
+                object obj = ResourceManager.GetObject("tlr61", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
