@@ -195,5 +195,23 @@
   <ItemGroup>
     <None Include="Resources\descarga %282%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\64096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rodajas-zanahoria_23-2147828960.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura_de_pantalla_2020-10-13_165058-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646 %282%292.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

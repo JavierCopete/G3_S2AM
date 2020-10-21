@@ -16,14 +16,15 @@ namespace Project_1
         {
             InitializeComponent();
         }
-
         int Error = 0;
+
         private void textBox2_Validating(object sender, CancelEventArgs e)
         {
             if (textBox1.Text == "Javahut" && textBox2.Text == "1234a")
             {
                 this.Hide();
                 Menu_usuari obj = new Menu_usuari();
+                obj.nom_user = textBox1.Text;
                 obj.Show();
             }
             else if (textBox1.Text == "Javahut" && textBox2.Text != "1234a")
@@ -49,12 +50,6 @@ namespace Project_1
                     MessageBox.Show("Usuari i Contrasenya incorrectes, intents restants " + (String)(3 - Error).ToString());
                 }
             }
-        }
-
-
-        private void Log_in_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

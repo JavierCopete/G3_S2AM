@@ -16,20 +16,10 @@ namespace Project_1
         {
             InitializeComponent();
         }
-
-        private void pictureBox5_Click(object sender, EventArgs e)
+        public string nom_user;
+        private void Menu_usuari_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
+            label2.Text = nom_user;
         }
     }
 }

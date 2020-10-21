@@ -43,9 +43,9 @@
             this.progressBar1.BackColor = System.Drawing.Color.Peru;
             this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.progressBar1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.progressBar1.Location = new System.Drawing.Point(0, 431);
+            this.progressBar1.Location = new System.Drawing.Point(0, 424);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(800, 12);
+            this.progressBar1.Size = new System.Drawing.Size(800, 19);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 0;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
@@ -82,7 +82,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 12);
+            this.panel1.Size = new System.Drawing.Size(800, 30);
             this.panel1.TabIndex = 0;
             // 
             // Splash
