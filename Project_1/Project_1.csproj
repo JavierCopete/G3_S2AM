@@ -79,12 +79,6 @@
     <Compile Include="UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="UserControl2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl2.Designer.cs">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Boton_exit.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -113,9 +107,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UserControl2.resx">
-      <DependentUpon>UserControl2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Boton_exit.resx">
       <DependentUpon>Boton_exit.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +203,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646 %282%292.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2020-10-22 172513.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93631.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minize1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

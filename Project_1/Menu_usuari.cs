@@ -21,5 +21,15 @@ namespace Project_1
         {
             label2.Text = nom_user;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

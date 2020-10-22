@@ -17,23 +17,20 @@ namespace Project_1
             InitializeComponent();
         }
         int Error = 0;
-
+        int contador_s = 0;
+        
         private void textBox2_Validating(object sender, CancelEventArgs e)
         {
-            if (textBox1.Text == "Javahut" && textBox2.Text == "1234a")
+            if (textBox1.Text == "root" && textBox2.Text == "1234a")
             {
-                this.Hide();
-                Menu_usuari obj = new Menu_usuari();
-                obj.nom_user = textBox1.Text;
-                obj.Show();
-            }
-            else if (textBox1.Text == "Javahut" && textBox2.Text != "1234a")
-            {
-
-                textBox2.Clear();
-
-                MessageBox.Show("Usuari Reconegut, Contrasenya incorrecta");
-
+                label5.Hide();
+                textBox1.Enabled = false;
+                textBox2.Enabled = false;
+                label6.Text = ("Bon dia " + textBox1.Text + ", estem validant les seves credencials");
+                pictureBox1.Image = Image.FromFile(@"C:\Users\rprod\Pictures\conejo_cola.gif");
+                pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+                timer1.Enabled = true;
+                timer1.Start();      
             }
             else
             {
@@ -47,8 +44,20 @@ namespace Project_1
                 }
                 else
                 {
-                    MessageBox.Show("Usuari i Contrasenya incorrectes, intents restants " + (String)(3 - Error).ToString());
+                    label5.Text = ("Usuari i Contrasenya incorrectes, intents restants " + (String)(3 - Error).ToString());
                 }
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            contador_s++;
+        if (contador_s == 5)
+            {
+                Menu_usuari obj = new Menu_usuari();
+                obj.nom_user = textBox1.Text;
+                obj.Show();
+                this.Hide();
             }
         }
     }

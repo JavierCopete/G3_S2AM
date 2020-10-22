@@ -16,5 +16,4 @@ C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1_MarkupCompi
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1_MarkupCompile.lref
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\UserControl1.baml
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.g.resources
-C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.UserControl2.resources
 C:\Users\rprod\source\repos\Projecte_1\Project_1\obj\Debug\Project_1.Boton_exit.resources
