@@ -65,7 +65,7 @@ namespace Messi_app
             if (textBox1.Text == "1234")
             {
                 this.Hide();
-                Menu_MAC obj = new Menu_MAC();
+                Menu_admin obj = new Menu_admin();
                 obj.Show();
             }
             else

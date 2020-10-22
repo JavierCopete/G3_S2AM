@@ -63,6 +63,26 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _030e545dd05a64fb529decf1841295b6 {
+            get {
+                object obj = ResourceManager.GetObject("030e545dd05a64fb529decf1841295b6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1366_2000 {
+            get {
+                object obj = ResourceManager.GetObject("1366_2000", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _180_1804550_grievous_comments_icon {
             get {
                 object obj = ResourceManager.GetObject("180-1804550_grievous-comments-icon", resourceCulture);
@@ -93,6 +113,16 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _36469_imperialstardestroyer_detail_fuentestarwarscom {
+            get {
+                object obj = ResourceManager.GetObject("36469-imperialstardestroyer_detail_fuentestarwarscom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _41962 {
             get {
                 object obj = ResourceManager.GetObject("41962", resourceCulture);
@@ -116,6 +146,56 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap _4e60fa416a33f12786f83f4a29c095e5_icono_de_llave_y_engranaje1 {
             get {
                 object obj = ResourceManager.GetObject("4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _4XUCJAXSHNCTXDYMUU5MMYL5K4 {
+            get {
+                object obj = ResourceManager.GetObject("4XUCJAXSHNCTXDYMUU5MMYL5K4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _6b82f458f12bfe4d96877ab9b4af40b0 {
+            get {
+                object obj = ResourceManager.GetObject("6b82f458f12bfe4d96877ab9b4af40b0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8782f54d616de32ebeaca1d5909d7eb7 {
+            get {
+                object obj = ResourceManager.GetObject("8782f54d616de32ebeaca1d5909d7eb7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _878fb2ec295102ec81c38c44e4808827 {
+            get {
+                object obj = ResourceManager.GetObject("878fb2ec295102ec81c38c44e4808827", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a24851d614f3b8591eedb308ad471761 {
+            get {
+                object obj = ResourceManager.GetObject("a24851d614f3b8591eedb308ad471761", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,6 +283,26 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga__3_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap estrella_de_la_muerte_png_2_Transparent_Images {
+            get {
+                object obj = ResourceManager.GetObject("estrella-de-la-muerte-png-2-Transparent-Images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Guerrero_Sith_TOR {
             get {
                 object obj = ResourceManager.GetObject("Guerrero_Sith_TOR", resourceCulture);
@@ -223,9 +323,49 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__1_ {
+            get {
+                object obj = ResourceManager.GetObject("images (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("images (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images1 {
             get {
                 object obj = ResourceManager.GetObject("images1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images2 {
+            get {
+                object obj = ResourceManager.GetObject("images2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap K_2SO {
+            get {
+                object obj = ResourceManager.GetObject("K-2SO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -248,6 +388,26 @@ namespace Messi_app.Properties {
             get {
                 object obj = ResourceManager.GetObject("kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab" +
                         "05383f3a0e41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lightsaber {
+            get {
+                object obj = ResourceManager.GetObject("lightsaber", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sith_Eternal_insignia {
+            get {
+                object obj = ResourceManager.GetObject("Sith_Eternal_insignia", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -285,9 +445,29 @@ namespace Messi_app.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap TIEfighter2_Fathead {
+            get {
+                object obj = ResourceManager.GetObject("TIEfighter2-Fathead", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap unknown {
             get {
                 object obj = ResourceManager.GetObject("unknown", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -309,6 +489,16 @@ namespace Messi_app.Properties {
         internal static System.Drawing.Bitmap vinilo_at_at_star_wars {
             get {
                 object obj = ResourceManager.GetObject("vinilo-at-at-star-wars", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap VTVFXWSMARCMLGSALFS36KPZP4 {
+            get {
+                object obj = ResourceManager.GetObject("VTVFXWSMARCMLGSALFS36KPZP4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

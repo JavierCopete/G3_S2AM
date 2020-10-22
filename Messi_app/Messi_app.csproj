@@ -52,6 +52,18 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.Designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_admin.Designer.cs">
+      <DependentUpon>Menu_admin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_MAC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_admin.resx">
+      <DependentUpon>Menu_admin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu_MAC.resx">
       <DependentUpon>Menu_MAC.cs</DependentUpon>
@@ -190,6 +205,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\unknown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightsaber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TIEfighter2-Fathead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sith_Eternal_insignia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4XUCJAXSHNCTXDYMUU5MMYL5K4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VTVFXWSMARCMLGSALFS36KPZP4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1366_2000.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36469-imperialstardestroyer_detail_fuentestarwarscom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\878fb2ec295102ec81c38c44e4808827.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6b82f458f12bfe4d96877ab9b4af40b0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrella-de-la-muerte-png-2-Transparent-Images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8782f54d616de32ebeaca1d5909d7eb7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a24851d614f3b8591eedb308ad471761.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\K-2SO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\030e545dd05a64fb529decf1841295b6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

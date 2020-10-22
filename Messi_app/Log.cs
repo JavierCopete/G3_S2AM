@@ -40,7 +40,6 @@ namespace Messi_app
             else
             {
                  Error++;
-               
 
                 if(Error == 3)
                 {

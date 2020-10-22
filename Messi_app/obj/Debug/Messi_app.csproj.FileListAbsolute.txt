@@ -12,3 +12,4 @@ D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Admin.resources
 D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Log.resources
 D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Menu_usuari.resources
 D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Menu_MAC.resources
+D:\S2AM\M20\Messi_app\obj\Debug\Messi_app.Menu_admin.resources

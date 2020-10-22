@@ -16,8 +16,11 @@ namespace Messi_app
         {
             InitializeComponent();
         }
-
         private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Menu_usuari_Load(object sender, EventArgs e)
         {
 
         }

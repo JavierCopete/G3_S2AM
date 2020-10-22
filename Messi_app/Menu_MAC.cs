@@ -18,8 +18,6 @@ namespace Messi_app
         public Menu_MAC()
         {
             InitializeComponent();
-
-          
         }
         private void button2_Click(object sender, EventArgs e)
         {
@@ -54,7 +52,6 @@ namespace Messi_app
             }
             Application.Exit();
         }
-
         private void Menu_MAC_Load(object sender, EventArgs e)
         {
             String hostName = Dns.GetHostName();
@@ -71,7 +68,6 @@ namespace Messi_app
                     }
                 }
             }
-
             textBox2.Text = macAddresses;
         }
     }

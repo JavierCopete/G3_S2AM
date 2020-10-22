@@ -118,79 +118,136 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e4.5304297115215051559979" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e4.5304297115215051559979.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="41962" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\41962.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2020-10-15 201925" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2020-10-15 201925.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="starwars-clipart-sith-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\starwars-clipart-sith-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="180-1804550_grievous-comments-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\180-1804550_grievous-comments-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Captura de pantalla 2020-10-15 201722" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla 2020-10-15 201722.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SWL44_A3_Grievous-art_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SWL44_A3_Grievous-art_ES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c0cb8873aafe2930ffb3e9567e86ef2ed2160d1dr1-720-394v2_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c0cb8873aafe2930ffb3e9567e86ef2ed2160d1dr1-720-394v2_hq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="vader+darth+vader+lord+sith+lord+sith+sith+star+wars+strar+wars-1320190551463123211" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vader+darth+vader+lord+sith+lord+sith+sith+star+wars+strar+wars-1320190551463123211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2017092717395854889" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2017092717395854889.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="200px-GeneralGrievous" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\200px-GeneralGrievous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e41" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e4.53042971152150515599791.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\descarga.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="vinilo-at-at-star-wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\vinilo-at-at-star-wars.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1366_2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1366_2000.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="stormtrooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\stormtrooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e4.5304297115215051559979" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-configuration-management-computer-icons-symbol-bus-gear-download-icon-5ab05383f3a0e4.5304297115215051559979.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="d4b3bb99ccb243de463ab00d5f985ca7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\d4b3bb99ccb243de463ab00d5f985ca7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="death-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\death-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="6b82f458f12bfe4d96877ab9b4af40b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6b82f458f12bfe4d96877ab9b4af40b0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Guerrero_Sith_TOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Guerrero_Sith_TOR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="stormtrooper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stormtrooper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de pantalla 2020-10-15 201925" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2020-10-15 201925.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="B1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\B1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="200px-GeneralGrievous" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\200px-GeneralGrievous.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="K-2SO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\K-2SO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4XUCJAXSHNCTXDYMUU5MMYL5K4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4XUCJAXSHNCTXDYMUU5MMYL5K4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a24851d614f3b8591eedb308ad471761" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a24851d614f3b8591eedb308ad471761.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c0cb8873aafe2930ffb3e9567e86ef2ed2160d1dr1-720-394v2_hq" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c0cb8873aafe2930ffb3e9567e86ef2ed2160d1dr1-720-394v2_hq.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vinilo-at-at-star-wars" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vinilo-at-at-star-wars.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="starwars-clipart-sith-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\starwars-clipart-sith-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2017092717395854889" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2017092717395854889.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d4b3bb99ccb243de463ab00d5f985ca7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d4b3bb99ccb243de463ab00d5f985ca7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8782f54d616de32ebeaca1d5909d7eb7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8782f54d616de32ebeaca1d5909d7eb7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TIEfighter2-Fathead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TIEfighter2-Fathead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sith_Eternal_insignia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sith_Eternal_insignia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VTVFXWSMARCMLGSALFS36KPZP4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VTVFXWSMARCMLGSALFS36KPZP4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="estrella-de-la-muerte-png-2-Transparent-Images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\estrella-de-la-muerte-png-2-Transparent-Images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de pantalla 2020-10-15 201722" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla 2020-10-15 201722.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="unnamed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\unnamed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="878fb2ec295102ec81c38c44e4808827" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\878fb2ec295102ec81c38c44e4808827.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="36469-imperialstardestroyer_detail_fuentestarwarscom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36469-imperialstardestroyer_detail_fuentestarwarscom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4e60fa416a33f12786f83f4a29c095e5-icono-de-llave-y-engranaje1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lightsaber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lightsaber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="vader+darth+vader+lord+sith+lord+sith+sith+star+wars+strar+wars-1320190551463123211" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vader+darth+vader+lord+sith+lord+sith+sith+star+wars+strar+wars-1320190551463123211.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="unknown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unknown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SWL44_A3_Grievous-art_ES" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SWL44_A3_Grievous-art_ES.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="180-1804550_grievous-comments-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\180-1804550_grievous-comments-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41962" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41962.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="death-star" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\death-star.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="030e545dd05a64fb529decf1841295b6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\030e545dd05a64fb529decf1841295b6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
