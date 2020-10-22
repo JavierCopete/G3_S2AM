@@ -54,21 +54,10 @@ namespace Messi_app
         }
         private void Menu_MAC_Load(object sender, EventArgs e)
         {
-            String hostName = Dns.GetHostName();
-            textBox1.Text = hostName;
-
-            string macAddresses = "";
-            foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces())
-            {
-                if (nic.OperationalStatus == OperationalStatus.Up && (!nic.Description.Contains("Virtual") && !nic.Description.Contains("Pseudo")))
-                {
-                    if (nic.GetPhysicalAddress().ToString() != "")
-                    {
-                        macAddresses = nic.GetPhysicalAddress().ToString();
-                    }
-                }
-            }
-            textBox2.Text = macAddresses;
+            Classes_Messi.Xarxes cls = new Classes_Messi.Xarxes();         
+            
+            textBox1.Text = cls.GetHostname();
+            textBox2.Text = cls.GetMac();
         }
     }
 }

@@ -263,5 +263,11 @@
   <ItemGroup>
     <None Include="Resources\030e545dd05a64fb529decf1841295b6.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Classes_Messi\Classes_Messi.csproj">
+      <Project>{df370b76-d4b9-4ad6-8331-6f8dd04729f5}</Project>
+      <Name>Classes_Messi</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
