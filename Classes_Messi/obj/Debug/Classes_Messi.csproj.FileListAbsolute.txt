@@ -1,6 +1,0 @@
-C:\Users\Edu\source\repos\Classes_Messi\bin\Debug\Classes_Messi.dll
-C:\Users\Edu\source\repos\Classes_Messi\bin\Debug\Classes_Messi.pdb
-C:\Users\Edu\source\repos\Classes_Messi\obj\Debug\Classes_Messi.csprojAssemblyReference.cache
-C:\Users\Edu\source\repos\Classes_Messi\obj\Debug\Classes_Messi.csproj.CoreCompileInputs.cache
-C:\Users\Edu\source\repos\Classes_Messi\obj\Debug\Classes_Messi.dll
-C:\Users\Edu\source\repos\Classes_Messi\obj\Debug\Classes_Messi.pdb
