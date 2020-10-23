@@ -59,16 +59,16 @@
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel3.Location = new System.Drawing.Point(0, 30);
+            this.panel3.Location = new System.Drawing.Point(0, 43);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(318, 738);
+            this.panel3.Size = new System.Drawing.Size(318, 725);
             this.panel3.TabIndex = 9;
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.Silver;
             this.button3.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(-1, 357);
+            this.button3.Location = new System.Drawing.Point(-1, 363);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(318, 170);
             this.button3.TabIndex = 16;
@@ -80,7 +80,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.Silver;
             this.button2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(-1, 178);
+            this.button2.Location = new System.Drawing.Point(-2, 185);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(318, 170);
             this.button2.TabIndex = 15;
@@ -92,7 +92,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(-2, -1);
+            this.button1.Location = new System.Drawing.Point(-2, 7);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(318, 170);
             this.button1.TabIndex = 14;
@@ -105,7 +105,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Silver;
             this.button4.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(-1, 537);
+            this.button4.Location = new System.Drawing.Point(-1, 542);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(318, 170);
             this.button4.TabIndex = 13;
@@ -140,7 +140,7 @@
             // 
             this.pictureBox4.BackgroundImage = global::Project_1.Properties.Resources.unnamed;
             this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Location = new System.Drawing.Point(324, 36);
+            this.pictureBox4.Location = new System.Drawing.Point(323, 56);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(173, 159);
             this.pictureBox4.TabIndex = 11;
@@ -150,7 +150,7 @@
             // 
             this.pictureBox3.BackgroundImage = global::Project_1.Properties.Resources.pixelart_11;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(324, 401);
+            this.pictureBox3.Location = new System.Drawing.Point(323, 421);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(173, 146);
             this.pictureBox3.TabIndex = 10;
@@ -161,7 +161,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::Project_1.Properties.Resources.Captura_de_pantalla_2020_10_13_165058_removebg_preview1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(324, 581);
+            this.pictureBox1.Location = new System.Drawing.Point(324, 600);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(187, 147);
             this.pictureBox1.TabIndex = 8;
@@ -171,7 +171,7 @@
             // 
             this.pictureBox2.BackgroundImage = global::Project_1.Properties.Resources._85_850227_r2d2_pixel_art_star_wars_r2d2_clipart;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(344, 224);
+            this.pictureBox2.Location = new System.Drawing.Point(324, 245);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(153, 137);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -186,18 +186,18 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1366, 30);
+            this.panel1.Size = new System.Drawing.Size(1366, 43);
             this.panel1.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(49, 4);
+            this.label2.Location = new System.Drawing.Point(53, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 23);
+            this.label2.Size = new System.Drawing.Size(66, 26);
             this.label2.TabIndex = 14;
             this.label2.Text = "label2";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -208,7 +208,7 @@
             this.boton_exit1.Dock = System.Windows.Forms.DockStyle.Top;
             this.boton_exit1.Location = new System.Drawing.Point(0, 0);
             this.boton_exit1.Name = "boton_exit1";
-            this.boton_exit1.Size = new System.Drawing.Size(1366, 29);
+            this.boton_exit1.Size = new System.Drawing.Size(1366, 40);
             this.boton_exit1.TabIndex = 0;
             // 
             // Menu_usuari
