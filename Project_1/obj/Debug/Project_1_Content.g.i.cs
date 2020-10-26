@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/minize1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/macro-de-la-textura-de-la-peladura-de-zanahoria-45875646.jpg")]
 
 

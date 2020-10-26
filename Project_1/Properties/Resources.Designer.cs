@@ -253,6 +253,16 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap macro_de_la_textura_de_la_peladura_de_zanahoria_45875646 {
+            get {
+                object obj = ResourceManager.GetObject("macro-de-la-textura-de-la-peladura-de-zanahoria-45875646", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap macro_de_la_textura_de_la_peladura_de_zanahoria_45875646__2_ {
             get {
                 object obj = ResourceManager.GetObject("macro-de-la-textura-de-la-peladura-de-zanahoria-45875646 (2)", resourceCulture);

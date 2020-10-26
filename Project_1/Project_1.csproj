@@ -56,6 +56,24 @@
     <Compile Include="CustomControl1.Designer.cs">
       <DependentUpon>CustomControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cerca.Designer.cs">
+      <DependentUpon>Cerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Taula_foranea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Taula_foranea.Designer.cs">
+      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Plantilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Plantilla.Designer.cs">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,8 +103,29 @@
     <Compile Include="Boton_exit.Designer.cs">
       <DependentUpon>Boton_exit.cs</DependentUpon>
     </Compile>
+    <Compile Include="Boton_heredados.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Boton_heredados.Designer.cs">
+      <DependentUpon>Boton_heredados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SW_Textbox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SW_Textbox.Designer.cs">
+      <DependentUpon>SW_Textbox.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CustomControl1.resx">
       <DependentUpon>CustomControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cerca.resx">
+      <DependentUpon>Cerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SW_Textbox.resx">
+      <DependentUpon>SW_Textbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Taula_foranea.resx">
+      <DependentUpon>Taula_foranea.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
@@ -109,6 +148,12 @@
     </Compile>
     <EmbeddedResource Include="Boton_exit.resx">
       <DependentUpon>Boton_exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plantilla.resx">
+      <DependentUpon>Plantilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boton_heredados.resx">
+      <DependentUpon>Boton_heredados.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -224,6 +269,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\minize1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
