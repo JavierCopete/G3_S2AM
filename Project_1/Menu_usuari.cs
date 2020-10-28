@@ -40,6 +40,7 @@ namespace Project_1
         {
             Taula_foranea obj = new Taula_foranea();
             obj.Show();
+
         }
     }
 }

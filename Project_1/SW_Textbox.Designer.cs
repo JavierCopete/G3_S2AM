@@ -33,11 +33,15 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(47, 54);
+            this.textBox1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.textBox1.Location = new System.Drawing.Point(8, 3);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(235, 20);
+            this.textBox1.Size = new System.Drawing.Size(135, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
+            this.textBox1.Validating += new System.ComponentModel.CancelEventHandler(this.textBox1_Validating);
             // 
             // SW_Textbox
             // 
@@ -45,7 +49,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.textBox1);
             this.Name = "SW_Textbox";
-            this.Size = new System.Drawing.Size(339, 156);
+            this.Size = new System.Drawing.Size(146, 26);
             this.ResumeLayout(false);
             this.PerformLayout();
 

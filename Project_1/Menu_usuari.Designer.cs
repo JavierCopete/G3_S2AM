@@ -41,7 +41,9 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.SW_Textbox1 = new Project_1.SW_Textbox();
             this.boton_exit1 = new Project_1.Boton_exit();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -212,6 +214,14 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+            // SW_Textbox1
+            // 
+            this.SW_Textbox1.DadaPermesa = Project_1.SW_Textbox.TipusDada.Number;
+            this.SW_Textbox1.Location = new System.Drawing.Point(614, 156);
+            this.SW_Textbox1.Name = "SW_Textbox1";
+            this.SW_Textbox1.Size = new System.Drawing.Size(146, 26);
+            this.SW_Textbox1.TabIndex = 14;
+            // 
             // boton_exit1
             // 
             this.boton_exit1.BackColor = System.Drawing.Color.MistyRose;
@@ -221,6 +231,13 @@
             this.boton_exit1.Size = new System.Drawing.Size(1366, 40);
             this.boton_exit1.TabIndex = 0;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(581, 269);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 15;
+            // 
             // Menu_usuari
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,6 +245,8 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.SW_Textbox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -269,5 +288,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private Boton_exit boton_exit1;
+        private SW_Textbox SW_Textbox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
