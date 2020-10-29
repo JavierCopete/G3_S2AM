@@ -65,7 +65,11 @@ namespace Tlr_controls
                     }
                     break;
                 case TipusDada.Number:
+<<<<<<< HEAD
+                    if (Numero.IsMatch(this.Text) {
+=======
                     if (Numero.IsMatch(this.Text)) {
+>>>>>>> 601d22acad02ffa9466907e8c0621ae943b4c87d
                         MessageBox.Show("Esto es un numero");
                     }
                     else {

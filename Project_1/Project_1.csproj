@@ -22,7 +22,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,7 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="PresentationCore" />
@@ -58,23 +56,11 @@
     <Compile Include="CustomControl1.Designer.cs">
       <DependentUpon>CustomControl1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Taula_Simple.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Taula_Simple.Designer.cs">
-      <DependentUpon>Taula_Simple.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Taula_Cerca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taula_Cerca.Designer.cs">
-      <DependentUpon>Taula_Cerca.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Taula_foranea.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taula_foranea.Designer.cs">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
@@ -88,6 +74,11 @@
     <Compile Include="Log_in.Designer.cs">
       <DependentUpon>Log_in.cs</DependentUpon>
     </Compile>
+    <Compile Include="SecureCoreDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecureCoreDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Splash.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,26 +87,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Barra_Estat.cs">
+    <Compile Include="UserControl1.xaml.cs">
+      <DependentUpon>UserControl1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Boton_exit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Barra_Estat.Designer.cs">
-      <DependentUpon>Barra_Estat.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Boton_Exit.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Boton_Exit.Designer.cs">
-      <DependentUpon>Boton_Exit.cs</DependentUpon>
+    <Compile Include="Boton_exit.Designer.cs">
+      <DependentUpon>Boton_exit.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CustomControl1.resx">
       <DependentUpon>CustomControl1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Taula_Cerca.resx">
-      <DependentUpon>Taula_Cerca.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Taula_foranea.resx">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
@@ -136,14 +121,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Barra_Estat.resx">
-      <DependentUpon>Barra_Estat.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Boton_Exit.resx">
-      <DependentUpon>Boton_Exit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Taula_Simple.resx">
-      <DependentUpon>Taula_Simple.cs</DependentUpon>
+    <EmbeddedResource Include="Boton_exit.resx">
+      <DependentUpon>Boton_exit.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -154,6 +133,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SecureCoreDataSet.xsc">
+      <DependentUpon>SecureCoreDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SecureCoreDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SecureCoreDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecureCoreDataSet.xss">
+      <DependentUpon>SecureCoreDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -213,6 +203,12 @@
     <None Include="Resources\tlr61.png" />
   </ItemGroup>
   <ItemGroup>
+    <Page Include="UserControl1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\descarga %282%29.png" />
   </ItemGroup>
   <ItemGroup>
@@ -255,16 +251,9 @@
     <None Include="Resources\minize1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tlr_controls\Tlr_controls.csproj">
-      <Project>{122d07b2-ff89-4aba-816e-921d036c43e1}</Project>
-      <Name>Tlr_controls</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TLR_Forms\TLR_Forms.csproj">
-      <Project>{314d08cf-4e9a-40f0-8b89-d36549ff4bd6}</Project>
-      <Name>TLR_Forms</Name>
+    <ProjectReference Include="..\Biblioteca_Dades\Biblioteca_Dades.csproj">
+      <Project>{dbae1ca3-1d0f-4209-ba72-fcacb76333bc}</Project>
+      <Name>Biblioteca_Dades</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

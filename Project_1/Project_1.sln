@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_1", "Project_1.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlr_controls", "..\Tlr_controls\Tlr_controls.csproj", "{122D07B2-FF89-4ABA-816E-921D036C43E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLR_Forms", "..\TLR_Forms\TLR_Forms.csproj", "{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{122D07B2-FF89-4ABA-816E-921D036C43E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{122D07B2-FF89-4ABA-816E-921D036C43E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{122D07B2-FF89-4ABA-816E-921D036C43E1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
