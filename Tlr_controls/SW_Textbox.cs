@@ -1,26 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
 using System.Windows.Forms;
 using System.IO.IsolatedStorage;
-using System.Windows.Documents;
 using System.Text.RegularExpressions;
+using System.ComponentModel;
+using System.Data;
 
-namespace Project_1
+namespace Tlr_controls
 {
-
-    public partial class SW_Textbox : UserControl
+    public class SW_Textbox:TextBox
     {
-        public SW_Textbox()
-        {
+        public SW_Textbox() {
             InitializeComponent();
         }
-
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // SW_Textbox
+            // 
+            this.Enter += new System.EventHandler(this.SW_Textbox_Enter);
+            this.Leave += new System.EventHandler(this.SW_Textbox_Leave);
+            this.Validating += new System.ComponentModel.CancelEventHandler(this.SW_Textbox_Validating);
+            this.ResumeLayout(false);
+        }
         public enum TipusDada
         {
             Number,
@@ -28,7 +35,7 @@ namespace Project_1
             Data,
             Codi
         }
-        private TipusDada _DadaPermesa;    
+        private TipusDada _DadaPermesa;
         public TipusDada DadaPermesa
         {
             get { return _DadaPermesa; }
@@ -36,22 +43,9 @@ namespace Project_1
             {
                 _DadaPermesa = value;
             }
-
-        }
-        private void textBox1_Enter(object sender, EventArgs e)
-        {
-            textBox1.BackColor = Color.MistyRose;
-        }
-        private void textBox1_Leave(object sender, EventArgs e)
-        {
-            textBox1.BackColor = Color.DarkSalmon;
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-        private void textBox1_Validating(object sender, CancelEventArgs e)
+        private void SW_Textbox_Validating(object sender, CancelEventArgs e)
         {
             Regex Texto = new Regex("^[a-zA-Z]+$");
             Regex Numero = new Regex("^[0-9]+$");
@@ -62,57 +56,60 @@ namespace Project_1
             {
 
                 case TipusDada.Text:
-                    if (Texto.IsMatch(textBox1.Text))
+                    if (Texto.IsMatch(this.Text))
                     {
                         MessageBox.Show("Esto es un texto");
-                    } 
+                    }
                     else
                     {
                         e.Cancel = true;
-                        textBox1.Clear();
+                        this.Clear();
                     }
                     break;
                 case TipusDada.Number:
-                    if (Numero.IsMatch(textBox1.Text))
+                    if (Numero.IsMatch(this.Text))
                     {
                         MessageBox.Show("Esto es un numero");
                     }
                     else
                     {
                         e.Cancel = true;
-                        textBox1.Clear();
+                        this.Clear();
                     }
                     break;
                 case TipusDada.Data:
-                    if (Fecha.IsMatch(textBox1.Text))
+                    if (Fecha.IsMatch(this.Text))
                     {
                         MessageBox.Show("Esto es una fecha");
                     }
                     else
                     {
                         e.Cancel = true;
-                        textBox1.Clear();
+                        this.Clear();
                     }
                     break;
                 case TipusDada.Codi:
-                    if (Codigo.IsMatch(textBox1.Text))
+                    if (Codigo.IsMatch(this.Text))
                     {
                         MessageBox.Show("Esto es un codigo");
                     }
                     else
                     {
                         e.Cancel = true;
-                        textBox1.Clear();
+                        this.Clear();
                     }
                     break;
-                    
-                //    var Text when new Regex("^[a-zA-Z]+$").IsMatch(textBox1.Text):
-                //    MessageBox.Show("Esto es un texto");
-                //    break;
-                //case var Nume when new Regex("^[0-9]+$").IsMatch(textBox1.Text):
-                //    MessageBox.Show("Esto es un Numero");
-                //    break;
             }
+        }
+
+        private void SW_Textbox_Enter(object sender, EventArgs e)
+        {
+            this.BackColor = Color.MistyRose;
+        }
+
+        private void SW_Textbox_Leave(object sender, EventArgs e)
+        {
+            this.BackColor = Color.DarkSalmon;
         }
     }
 }
