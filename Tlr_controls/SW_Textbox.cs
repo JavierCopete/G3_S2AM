@@ -56,45 +56,37 @@ namespace Tlr_controls
             {
 
                 case TipusDada.Text:
-                    if (Texto.IsMatch(this.Text))
-                    {
+                    if (Texto.IsMatch(this.Text)) {
                         MessageBox.Show("Esto es un texto");
                     }
-                    else
-                    {
+                    else {
                         e.Cancel = true;
                         this.Clear();
                     }
                     break;
                 case TipusDada.Number:
-                    if (Numero.IsMatch(this.Text))
-                    {
+                    if (Numero.IsMatch(this.Text) {
                         MessageBox.Show("Esto es un numero");
                     }
-                    else
-                    {
+                    else {
                         e.Cancel = true;
                         this.Clear();
                     }
                     break;
                 case TipusDada.Data:
-                    if (Fecha.IsMatch(this.Text))
-                    {
+                    if (Fecha.IsMatch(this.Text)) {
                         MessageBox.Show("Esto es una fecha");
                     }
-                    else
-                    {
+                    else {
                         e.Cancel = true;
                         this.Clear();
                     }
                     break;
                 case TipusDada.Codi:
-                    if (Codigo.IsMatch(this.Text))
-                    {
+                    if (Codigo.IsMatch(this.Text)) {
                         MessageBox.Show("Esto es un codigo");
                     }
-                    else
-                    {
+                    else {
                         e.Cancel = true;
                         this.Clear();
                     }

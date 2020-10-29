@@ -60,5 +60,10 @@ namespace Project_1
                 this.Hide();
             }
         }
+
+        private void Log_in_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
