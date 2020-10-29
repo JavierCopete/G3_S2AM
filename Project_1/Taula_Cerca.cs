@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Boton_Exit : UserControl
+    public partial class Taula_Cerca : TLR_Forms.BaseForm
     {
-        public Boton_Exit()
+        public Taula_Cerca()
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
+
+        private void Form1_Load(object sender, EventArgs e)
         {
-            Form frm = this.FindForm();
-            frm.Close();
+
         }
     }
 }

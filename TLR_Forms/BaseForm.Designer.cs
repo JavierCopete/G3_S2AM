@@ -1,6 +1,6 @@
-﻿namespace Project_1
+﻿namespace TLR_Forms
 {
-    partial class Taula_foranea
+    partial class BaseForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,19 +30,19 @@
         {
             this.SuspendLayout();
             // 
-            // Taula_foranea
+            // BaseForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSalmon;
 <<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1042, 714);
-            this.Name = "Taula_foranea";
-            this.Text = "Form1";
-=======
             this.ClientSize = new System.Drawing.Size(1026, 675);
-            this.Name = "Taula_foranea";
->>>>>>> 601d22acad02ffa9466907e8c0621ae943b4c87d
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+=======
+            this.ClientSize = new System.Drawing.Size(800, 450);
+>>>>>>> 2fc097d64ea87d48ad1c87e94544b5c24e335777
+            this.Name = "BaseForm";
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }
