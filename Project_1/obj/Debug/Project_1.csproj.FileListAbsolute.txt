@@ -61,9 +61,9 @@ C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Sp
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Properties.Resources.resources
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Boton_exit.resources
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Plantilla.resources
-C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Boton_heredados.resources
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.GenerateResource.cache
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.CoreCompileInputs.cache
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.CopyComplete
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.exe
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\obj\Debug\Project_1.Barra_Estat.resources

@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.boton_heredados1 = new Project_1.Boton_heredados();
+            this.boton_heredados1 = new Project_1.Boton_Exit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,6 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private Boton_heredados boton_heredados1;
+        private Boton_Exit boton_heredados1;
     }
 }

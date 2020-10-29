@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Boton_heredados : UserControl
+    public partial class Barra_Estat : UserControl
     {
-        public Boton_heredados()
+        public Barra_Estat()
         {
             InitializeComponent();
         }
+
         private void button1_Click(object sender, EventArgs e)
         {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
             Form frm = this.FindForm();
-            frm.Close();
+            frm.WindowState = FormWindowState.Minimized;
         }
     }
 }
