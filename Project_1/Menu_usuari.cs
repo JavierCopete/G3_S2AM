@@ -24,11 +24,22 @@ namespace Project_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //Plantilla obj = new Plantilla();
+           // obj.Show();
         }
-
-        private void label2_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
+            //Cerca obj = new Cerca();
+            //obj.Show();
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            return;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //Taula_foranea obj = new Taula_foranea();
+            //obj.Show();
 
         }
     }
