@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Taula_foranea : Plantilla
+    public partial class Taula_foranea : TLR_Forms.BaseForm
     {
         public Taula_foranea()
         {

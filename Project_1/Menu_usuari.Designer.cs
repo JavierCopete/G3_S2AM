@@ -41,8 +41,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.SW_Textbox1 = new Project_1.SW_Textbox();
-            this.boton_exit1 = new Project_1.Boton_exit();
+            this.boton_exit1 = new Project_1.Barra_Estat();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -213,14 +212,6 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
-            // SW_Textbox1
-            // 
-            this.SW_Textbox1.DadaPermesa = Project_1.SW_Textbox.TipusDada.Codi;
-            this.SW_Textbox1.Location = new System.Drawing.Point(614, 156);
-            this.SW_Textbox1.Name = "SW_Textbox1";
-            this.SW_Textbox1.Size = new System.Drawing.Size(146, 26);
-            this.SW_Textbox1.TabIndex = 14;
-            // 
             // boton_exit1
             // 
             this.boton_exit1.BackColor = System.Drawing.Color.MistyRose;
@@ -237,7 +228,6 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.SW_Textbox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -278,7 +268,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Boton_exit boton_exit1;
-        private SW_Textbox SW_Textbox1;
+        private Barra_Estat boton_exit1;
     }
 }

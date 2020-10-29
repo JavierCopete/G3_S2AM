@@ -10,22 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Boton_exit : UserControl
+    public partial class Boton_Exit : UserControl
     {
-        public Boton_exit()
+        public Boton_Exit()
         {
             InitializeComponent();
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
             Form frm = this.FindForm();
-            frm.WindowState = FormWindowState.Minimized;
+            frm.Close();
         }
     }
 }

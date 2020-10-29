@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Plantilla : Form
+    public partial class Taula_Simple : TLR_Forms.BaseForm
     {
-        public Plantilla()
+        public Taula_Simple()
         {
             InitializeComponent();
+        }
+
+        private void Taula_Simple_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

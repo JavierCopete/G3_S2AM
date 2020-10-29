@@ -1,0 +1,8 @@
+C:\Users\Usuario\source\repos\TLR_Forms\bin\Debug\TLR_Forms.dll
+C:\Users\Usuario\source\repos\TLR_Forms\bin\Debug\TLR_Forms.pdb
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.BaseForm.resources
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.dll
+C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.pdb
