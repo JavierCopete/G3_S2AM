@@ -17,9 +17,12 @@ namespace Project_1
             InitializeComponent();
         }
 
-        private void Taula_Simple_Load(object sender, EventArgs e)
+        private void btnGenerate_Click(object sender, EventArgs e)
         {
-
+            TLR_Dades.Dades bbdd = new TLR_Dades.Dades();
+            DataSet dts;
+            dts = bbdd.PortarTaula(txtTaula.Text);
+            dataGridView1.DataSource = dts.Tables[0];
         }
     }
 }

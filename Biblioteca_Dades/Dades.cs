@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Biblioteca_Dades
+namespace TLR_Dades
 {
     public class Dades
     {
@@ -90,10 +90,13 @@ namespace Biblioteca_Dades
         public void Executa(string consulta)
         {
             conn.Open();
+
             SqlCommand cmd;
             cmd = new SqlCommand(consulta, conn);
             int registresAfectats = cmd.ExecuteNonQuery();
             cmd.Dispose();
+            
+            conn.Close();
         }
     }
 }

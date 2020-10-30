@@ -24,13 +24,13 @@ namespace Project_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //Plantilla obj = new Plantilla();
-           // obj.Show();
+            Taula_Simple obj = new Taula_Simple();
+            obj.Show();
         }
         private void button4_Click(object sender, EventArgs e)
         {
-            //Cerca obj = new Cerca();
-            //obj.Show();
+            Taula_Cerca obj = new Taula_Cerca();
+            obj.Show();
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -38,8 +38,8 @@ namespace Project_1
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            //Taula_foranea obj = new Taula_foranea();
-            //obj.Show();
+            Taula_Foranea obj = new Taula_Foranea();
+            obj.Show();
 
         }
     }
