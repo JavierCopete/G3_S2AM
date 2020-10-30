@@ -58,6 +58,11 @@
     <Compile Include="CustomControl1.Designer.cs">
       <DependentUpon>CustomControl1.cs</DependentUpon>
     </Compile>
+    <Compile Include="SecureCoreDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SecureCoreDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Taula_Simple.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +75,11 @@
     <Compile Include="Taula_Cerca.Designer.cs">
       <DependentUpon>Taula_Cerca.cs</DependentUpon>
     </Compile>
-    <Compile Include="Taula_foranea.cs">
+    <Compile Include="Taula_Foranea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Taula_foranea.Designer.cs">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <Compile Include="Taula_Foranea.Designer.cs">
+      <DependentUpon>Taula_Foranea.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
@@ -114,8 +119,8 @@
     <EmbeddedResource Include="Taula_Cerca.resx">
       <DependentUpon>Taula_Cerca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Taula_foranea.resx">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <EmbeddedResource Include="Taula_Foranea.resx">
+      <DependentUpon>Taula_Foranea.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
@@ -154,6 +159,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="SecureCoreDataSet1.xsc">
+      <DependentUpon>SecureCoreDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="SecureCoreDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SecureCoreDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SecureCoreDataSet1.xss">
+      <DependentUpon>SecureCoreDataSet1.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -258,6 +274,10 @@
     <None Include="Resources\macro-de-la-textura-de-la-peladura-de-zanahoria-45875646.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Biblioteca_Dades\TLR_Dades.csproj">
+      <Project>{dbae1ca3-1d0f-4209-ba72-fcacb76333bc}</Project>
+      <Name>TLR_Dades</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Tlr_controls\Tlr_controls.csproj">
       <Project>{122d07b2-ff89-4aba-816e-921d036c43e1}</Project>
       <Name>Tlr_controls</Name>

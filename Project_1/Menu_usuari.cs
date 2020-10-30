@@ -38,7 +38,7 @@ namespace Project_1
         }
         private void button2_Click(object sender, EventArgs e)
         {
-            Taula_foranea obj = new Taula_foranea();
+            Taula_Foranea obj = new Taula_Foranea();
             obj.Show();
 
         }
