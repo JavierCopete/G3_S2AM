@@ -34,14 +34,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(1042, 714);
-            this.Name = "Taula_foranea";
-            this.Text = "Form1";
-=======
             this.ClientSize = new System.Drawing.Size(1026, 675);
             this.Name = "Taula_foranea";
->>>>>>> 601d22acad02ffa9466907e8c0621ae943b4c87d
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 
