@@ -57,5 +57,11 @@
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tlr_controls\Tlr_controls.csproj">
+      <Project>{122D07B2-FF89-4ABA-816E-921D036C43E1}</Project>
+      <Name>Tlr_controls</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

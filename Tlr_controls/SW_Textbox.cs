@@ -12,9 +12,10 @@ using System.Data;
 
 namespace Tlr_controls
 {
-    public class SW_Textbox:TextBox
+    public class SW_Textbox : TextBox
     {
-        public SW_Textbox() {
+        public SW_Textbox()
+        {
             InitializeComponent();
         }
         private void InitializeComponent()
@@ -35,6 +36,7 @@ namespace Tlr_controls
             Data,
             Codi
         }
+
         private TipusDada _DadaPermesa;
         public TipusDada DadaPermesa
         {
@@ -42,6 +44,17 @@ namespace Tlr_controls
             set
             {
                 _DadaPermesa = value;
+            }
+        }
+
+        private bool _Obligatori;
+
+        public bool Obligatori
+        {
+            get { return _Obligatori; }
+            set
+            {
+                _Obligatori = value;
             }
         }
 
@@ -56,39 +69,59 @@ namespace Tlr_controls
             {
 
                 case TipusDada.Text:
-                    if (Texto.IsMatch(this.Text)) {
-                        MessageBox.Show("Esto es un texto");
-                    }
-                    else {
+                    if (!Texto.IsMatch(this.Text) && Obligatori == true)
+                    {
                         e.Cancel = true;
-                        this.Clear();
+                    }
+                    else if (!Texto.IsMatch(this.Text))
+                    {
+                        e.Cancel = false;
+                    }
+                    else
+                    {
+                        e.Cancel = false;
                     }
                     break;
                 case TipusDada.Number:
-                    if (Numero.IsMatch(this.Text)) {
-                        MessageBox.Show("Esto es un numero");
-                    }
-                    else {
+                    if (!Numero.IsMatch(this.Text) && Obligatori == true)
+                    {
                         e.Cancel = true;
-                        this.Clear();
+                    }
+                    else if (!Numero.IsMatch(this.Text))
+                    {
+                        e.Cancel = false;
+                    }
+                    else
+                    {
+                        e.Cancel = false;
                     }
                     break;
                 case TipusDada.Data:
-                    if (Fecha.IsMatch(this.Text)) {
-                        MessageBox.Show("Esto es una fecha");
-                    }
-                    else {
+                    if (!Fecha.IsMatch(this.Text) && Obligatori == true)
+                    {
                         e.Cancel = true;
-                        this.Clear();
+                    }
+                    else if (!Fecha.IsMatch(this.Text))
+                    {
+                        e.Cancel = false;
+                    }
+                    else
+                    {
+                        e.Cancel = false;
                     }
                     break;
                 case TipusDada.Codi:
-                    if (Codigo.IsMatch(this.Text)) {
-                        MessageBox.Show("Esto es un codigo");
-                    }
-                    else {
+                    if (!Codigo.IsMatch(this.Text) && Obligatori == true)
+                    {
                         e.Cancel = true;
-                        this.Clear();
+                    }
+                    else if (!Codigo.IsMatch(this.Text))
+                    {
+                        e.Cancel = false;
+                    }
+                    else
+                    {
+                        e.Cancel = false;
                     }
                     break;
             }

@@ -1,13 +1,13 @@
-﻿namespace Project_1
+﻿namespace Tlr_controls
 {
-    partial class CustomControl1
+    partial class Boton_Min
     {
         /// <summary>
         /// Variable del diseñador necesaria.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
+        /// <summary> 
         /// Limpiar los recursos que se estén usando.
         /// </summary>
         /// <param name="disposing">true si los recursos administrados se deben desechar; false en caso contrario.</param>
@@ -28,7 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Boton_Min
+            // 
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BackColor = System.Drawing.Color.MistyRose;
+            this.BackgroundImage = global::Tlr_controls.Properties.Resources.minize;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ForeColor = System.Drawing.Color.MistyRose;
+            this.Size = new System.Drawing.Size(30, 10);
+            this.TabStop = false;
+            this.UseVisualStyleBackColor = false;
+            this.Click += new System.EventHandler(this.Boton_Min_Click);
+            this.ResumeLayout(false);
+
         }
 
         #endregion

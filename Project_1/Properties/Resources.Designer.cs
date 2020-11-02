@@ -83,6 +83,16 @@ namespace Project_1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _640961 {
+            get {
+                object obj = ResourceManager.GetObject("640961", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _85_850227_r2d2_pixel_art_star_wars_r2d2_clipart {
             get {
                 object obj = ResourceManager.GetObject("85-850227_r2d2-pixel-art-star-wars-r2d2-clipart", resourceCulture);

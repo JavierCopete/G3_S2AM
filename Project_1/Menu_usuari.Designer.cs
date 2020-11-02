@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu_usuari));
             this.panel3 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -35,15 +37,19 @@
             this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.boton_exit1 = new Project_1.Barra_Estat();
+            this.boton_Min1 = new Tlr_controls.Boton_Min(this.components);
+            this.boton_exit1 = new Tlr_controls.Boton_exit(this.components);
+            this.sW_Textbox1 = new Tlr_controls.SW_Textbox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -138,13 +144,25 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MistyRose;
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.pictureBox6);
+            this.panel1.Controls.Add(this.boton_Min1);
             this.panel1.Controls.Add(this.boton_exit1);
+            this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1366, 43);
             this.panel1.TabIndex = 4;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackgroundImage = global::Project_1.Properties.Resources._640961;
+            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(53, 42);
+            this.pictureBox6.TabIndex = 17;
+            this.pictureBox6.TabStop = false;
             // 
             // label2
             // 
@@ -152,7 +170,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Corbel", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(53, 9);
+            this.label2.Location = new System.Drawing.Point(57, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 26);
             this.label2.TabIndex = 14;
@@ -212,14 +230,45 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+            // boton_Min1
+            // 
+            this.boton_Min1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.boton_Min1.BackColor = System.Drawing.Color.MistyRose;
+            this.boton_Min1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boton_Min1.BackgroundImage")));
+            this.boton_Min1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_Min1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_Min1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_Min1.ForeColor = System.Drawing.Color.MistyRose;
+            this.boton_Min1.Location = new System.Drawing.Point(1274, 3);
+            this.boton_Min1.Name = "boton_Min1";
+            this.boton_Min1.Size = new System.Drawing.Size(41, 36);
+            this.boton_Min1.TabIndex = 16;
+            this.boton_Min1.UseVisualStyleBackColor = false;
+            // 
             // boton_exit1
             // 
+            this.boton_exit1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.boton_exit1.BackColor = System.Drawing.Color.MistyRose;
-            this.boton_exit1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.boton_exit1.Location = new System.Drawing.Point(0, 0);
+            this.boton_exit1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("boton_exit1.BackgroundImage")));
+            this.boton_exit1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.boton_exit1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.boton_exit1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.boton_exit1.ForeColor = System.Drawing.Color.MistyRose;
+            this.boton_exit1.Location = new System.Drawing.Point(1321, 3);
             this.boton_exit1.Name = "boton_exit1";
-            this.boton_exit1.Size = new System.Drawing.Size(1366, 40);
-            this.boton_exit1.TabIndex = 0;
+            this.boton_exit1.Size = new System.Drawing.Size(42, 36);
+            this.boton_exit1.TabIndex = 15;
+            this.boton_exit1.TabStop = false;
+            this.boton_exit1.UseVisualStyleBackColor = false;
+            // 
+            // sW_Textbox1
+            // 
+            this.sW_Textbox1.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
+            this.sW_Textbox1.Location = new System.Drawing.Point(582, 119);
+            this.sW_Textbox1.Name = "sW_Textbox1";
+            this.sW_Textbox1.Obligatori = false;
+            this.sW_Textbox1.Size = new System.Drawing.Size(100, 20);
+            this.sW_Textbox1.TabIndex = 14;
             // 
             // Menu_usuari
             // 
@@ -228,6 +277,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.sW_Textbox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -244,6 +294,7 @@
             this.panel3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -268,6 +319,9 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Barra_Estat boton_exit1;
+        private Tlr_controls.Boton_Min boton_Min1;
+        private Tlr_controls.Boton_exit boton_exit1;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private Tlr_controls.SW_Textbox sW_Textbox1;
     }
 }

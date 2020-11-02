@@ -6,3 +6,14 @@ C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.GenerateResou
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\bin\Debug\TLR_Forms.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\bin\Debug\TLR_Forms.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\bin\Debug\Tlr_controls.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\bin\Debug\Tlr_controls.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csprojAssemblyReference.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseForm.resources
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.GenerateResource.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInputs.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.pdb

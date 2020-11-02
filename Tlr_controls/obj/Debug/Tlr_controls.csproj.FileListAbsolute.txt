@@ -6,3 +6,6 @@ C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_contr
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.pdb
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.SW_Textbox.resources
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.csproj.GenerateResource.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.Boton_exit.resources
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.Properties.Resources.resources
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.Boton_Min.resources

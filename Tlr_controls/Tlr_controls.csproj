@@ -43,15 +43,48 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Boton_exit.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boton_exit.Designer.cs">
+      <DependentUpon>Boton_exit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boton_Min.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Boton_Min.Designer.cs">
+      <DependentUpon>Boton_Min.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SW_Textbox.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Boton_exit.resx">
+      <DependentUpon>Boton_exit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boton_Min.resx">
+      <DependentUpon>Boton_Min.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="SW_Textbox.resx">
       <DependentUpon>SW_Textbox.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton_exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minize.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

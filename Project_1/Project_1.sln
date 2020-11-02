@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_1", "Project_1.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlr_controls", "..\Tlr_controls\Tlr_controls.csproj", "{122D07B2-FF89-4ABA-816E-921D036C43E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLR_Forms", "..\TLR_Forms\TLR_Forms.csproj", "{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tlr_Forms", "..\TLR_Forms\Tlr_Forms.csproj", "{314D08CF-4E9A-40F0-8B89-D36549FF4BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
