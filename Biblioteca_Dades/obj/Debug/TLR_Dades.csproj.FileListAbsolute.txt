@@ -1,0 +1,6 @@
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\obj\Debug\TLR_Dades.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\G3_S2AM-master\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.pdb
