@@ -4,3 +4,9 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csprojA
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb
+C:\Users\Usuario\source\repos\TLR_Dades\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Usuario\source\repos\TLR_Dades\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\TLR_Dades.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
+C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb

@@ -58,6 +58,17 @@ namespace Tlr_controls
             }
         }
 
+        private bool _Foranea;
+
+        public bool Foranea
+        {
+            get { return _Foranea; }
+            set
+            {
+                _Foranea = value;
+            }
+        }
+
         private void SW_Textbox_Validating(object sender, CancelEventArgs e)
         {
             Regex Texto = new Regex("^[a-zA-Z]+$");
@@ -124,6 +135,11 @@ namespace Tlr_controls
                         e.Cancel = false;
                     }
                     break;
+            }
+
+            if (Foranea == true)
+            {
+                //FALTA HACER
             }
         }
 

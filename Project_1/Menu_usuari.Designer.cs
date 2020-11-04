@@ -46,7 +46,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.boton_Min1 = new Tlr_controls.Boton_Min(this.components);
             this.boton_exit1 = new Tlr_controls.Boton_exit(this.components);
-            this.sW_Textbox1 = new Tlr_controls.SW_Textbox();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -243,6 +242,7 @@
             this.boton_Min1.Name = "boton_Min1";
             this.boton_Min1.Size = new System.Drawing.Size(41, 36);
             this.boton_Min1.TabIndex = 16;
+            this.boton_Min1.TabStop = false;
             this.boton_Min1.UseVisualStyleBackColor = false;
             // 
             // boton_exit1
@@ -261,15 +261,6 @@
             this.boton_exit1.TabStop = false;
             this.boton_exit1.UseVisualStyleBackColor = false;
             // 
-            // sW_Textbox1
-            // 
-            this.sW_Textbox1.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox1.Location = new System.Drawing.Point(582, 119);
-            this.sW_Textbox1.Name = "sW_Textbox1";
-            this.sW_Textbox1.Obligatori = false;
-            this.sW_Textbox1.Size = new System.Drawing.Size(100, 20);
-            this.sW_Textbox1.TabIndex = 14;
-            // 
             // Menu_usuari
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,7 +268,6 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(1366, 768);
-            this.Controls.Add(this.sW_Textbox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -322,6 +312,5 @@
         private Tlr_controls.Boton_Min boton_Min1;
         private Tlr_controls.Boton_exit boton_exit1;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private Tlr_controls.SW_Textbox sW_Textbox1;
     }
 }

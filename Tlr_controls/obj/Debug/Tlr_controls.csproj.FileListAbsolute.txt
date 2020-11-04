@@ -20,3 +20,14 @@ C:\Users\rprod\Desktop\PROJECT_1_BK\Tlr_controls\obj\Debug\Tlr_controls.csproj.G
 C:\Users\rprod\Desktop\PROJECT_1_BK\Tlr_controls\obj\Debug\Tlr_controls.csproj.CoreCompileInputs.cache
 C:\Users\rprod\Desktop\PROJECT_1_BK\Tlr_controls\obj\Debug\Tlr_controls.dll
 C:\Users\rprod\Desktop\PROJECT_1_BK\Tlr_controls\obj\Debug\Tlr_controls.pdb
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.Boton_exit.resources
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.Boton_Min.resources
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.Properties.Resources.resources
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.SW_Textbox.resources
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.dll
+C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.pdb
+C:\Users\Usuario\source\repos\Tlr_controls\bin\Debug\Tlr_controls.dll
+C:\Users\Usuario\source\repos\Tlr_controls\bin\Debug\Tlr_controls.pdb
