@@ -15,7 +15,9 @@ namespace TLR_Dades
 
         private void Connectar()
         {
-            cnx = "Data Source=JAVIERC;Initial Catalog=SecureCore;Integrated Security=True";
+           // cnx = "Data Source=JAVIERC;Initial Catalog=SecureCore;Integrated Security=True";
+            cnx = "Data Source = LAPTOP - 3CMMKCMH\\SQLEXPRESS; Initial Catalog = SecureCore; Integrated Security = True";
+            //cnx = "Data Source=MSI-EDU\\SQLExpress;Initial Catalog=SecureCore;Integrated Security=True";
             conn = new SqlConnection(cnx);
         }
 

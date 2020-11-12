@@ -106,3 +106,6 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.exe
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.pdb
 C:\Users\Usuario\source\repos\Project_1\bin\Debug\Biblioteca_Dades.dll
 C:\Users\Usuario\source\repos\Project_1\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\bin\Debug\Biblioteca_Dades.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Project_1\bin\Debug\Biblioteca_Dades.dll.config

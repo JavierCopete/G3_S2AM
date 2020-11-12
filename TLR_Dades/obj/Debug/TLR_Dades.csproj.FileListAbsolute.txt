@@ -10,3 +10,10 @@ C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\TLR_Dades.csprojAssemblyRefere
 C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
 C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\bin\Debug\Biblioteca_Dades.dll.config
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\bin\Debug\Biblioteca_Dades.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csprojAssemblyReference.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb

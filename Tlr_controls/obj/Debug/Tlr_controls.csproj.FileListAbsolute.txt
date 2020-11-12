@@ -1,6 +1,5 @@
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\bin\Debug\Tlr_controls.dll
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\bin\Debug\Tlr_controls.pdb
-C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.csprojAssemblyReference.cache
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.csproj.CoreCompileInputs.cache
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.dll
 C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.pdb
@@ -31,3 +30,6 @@ C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.dll
 C:\Users\Usuario\source\repos\Tlr_controls\obj\Debug\Tlr_controls.pdb
 C:\Users\Usuario\source\repos\Tlr_controls\bin\Debug\Tlr_controls.dll
 C:\Users\Usuario\source\repos\Tlr_controls\bin\Debug\Tlr_controls.pdb
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.SW_ComboFK.resources
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.csprojAssemblyReference.cache
+C:\Users\rprod\Documents\GitHub\G3_S2AM\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.Lola_Llença.resources
