@@ -46,6 +46,15 @@ namespace Tlr_controls
                 _DadaPermesa = value;
             }
         }
+        private string _NomCamp;
+        public string NomCamp
+        {
+            get { return _NomCamp; }
+            set
+            {
+                _NomCamp = value;
+            }
+        }
 
         private bool _Obligatori;
 
@@ -55,6 +64,17 @@ namespace Tlr_controls
             set
             {
                 _Obligatori = value;
+            }
+        }
+
+        private bool _Foranea;
+
+        public bool Foranea
+        {
+            get { return _Foranea; }
+            set
+            {
+                _Foranea = value;
             }
         }
 
@@ -124,6 +144,11 @@ namespace Tlr_controls
                         e.Cancel = false;
                     }
                     break;
+            }
+
+            if (Foranea == true)
+            {
+                //FALTA HACER
             }
         }
 

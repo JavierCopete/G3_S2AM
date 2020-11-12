@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Project_1
 {
-    public partial class Taula_Simple : TLR_Forms.BaseForm
+    public partial class Taula_Simple : TLR_Forms.BaseTaulaSimple
     {
         public Taula_Simple()
         {
@@ -19,15 +19,6 @@ namespace Project_1
 
         private void Taula_Simple_Load(object sender, EventArgs e)
         {
-
-        }
-
-        private void btnGenerate_Click(object sender, EventArgs e)
-        {
-            TLR_Dades.Dades bbdd = new TLR_Dades.Dades();
-            DataSet dts;
-            dts = bbdd.PortarTaula(txtTaula.Text);
-            dataGridView1.DataSource = dts.Tables[0];
 
         }
     }

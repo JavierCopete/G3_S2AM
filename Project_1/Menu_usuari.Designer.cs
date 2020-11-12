@@ -44,9 +44,11 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.sW_Textbox1 = new Tlr_controls.SW_Textbox();
+            this.sW_ComboFK1 = new Tlr_controls.SW_ComboFK(this.components);
             this.boton_Min1 = new Tlr_controls.Boton_Min(this.components);
             this.boton_exit1 = new Tlr_controls.Boton_exit(this.components);
-            this.sW_Textbox1 = new Tlr_controls.SW_Textbox();
+            this.lola_Llença1 = new Tlr_controls.SW_LLença();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -230,6 +232,27 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+            // sW_Textbox1
+            // 
+            this.sW_Textbox1.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
+            this.sW_Textbox1.Foranea = false;
+            this.sW_Textbox1.Location = new System.Drawing.Point(677, 183);
+            this.sW_Textbox1.Name = "sW_Textbox1";
+            this.sW_Textbox1.Obligatori = false;
+            this.sW_Textbox1.Size = new System.Drawing.Size(100, 20);
+            this.sW_Textbox1.TabIndex = 15;
+            // 
+            // sW_ComboFK1
+            // 
+            this.sW_ComboFK1.CampID = null;
+            this.sW_ComboFK1.CampMostrar = null;
+            this.sW_ComboFK1.ControlID = "sW_Textbox1";
+            this.sW_ComboFK1.FormattingEnabled = true;
+            this.sW_ComboFK1.Location = new System.Drawing.Point(550, 182);
+            this.sW_ComboFK1.Name = "sW_ComboFK1";
+            this.sW_ComboFK1.Size = new System.Drawing.Size(121, 21);
+            this.sW_ComboFK1.TabIndex = 14;
+            // 
             // boton_Min1
             // 
             this.boton_Min1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -243,6 +266,7 @@
             this.boton_Min1.Name = "boton_Min1";
             this.boton_Min1.Size = new System.Drawing.Size(41, 36);
             this.boton_Min1.TabIndex = 16;
+            this.boton_Min1.TabStop = false;
             this.boton_Min1.UseVisualStyleBackColor = false;
             // 
             // boton_exit1
@@ -261,14 +285,14 @@
             this.boton_exit1.TabStop = false;
             this.boton_exit1.UseVisualStyleBackColor = false;
             // 
-            // sW_Textbox1
+            // lola_Llença1
             // 
-            this.sW_Textbox1.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox1.Location = new System.Drawing.Point(582, 119);
-            this.sW_Textbox1.Name = "sW_Textbox1";
-            this.sW_Textbox1.Obligatori = false;
-            this.sW_Textbox1.Size = new System.Drawing.Size(100, 20);
-            this.sW_Textbox1.TabIndex = 14;
+            this.lola_Llença1.Classe = null;
+            this.lola_Llença1.Form = null;
+            this.lola_Llença1.Location = new System.Drawing.Point(579, 56);
+            this.lola_Llença1.Name = "lola_Llença1";
+            this.lola_Llença1.Size = new System.Drawing.Size(92, 91);
+            this.lola_Llença1.TabIndex = 16;
             // 
             // Menu_usuari
             // 
@@ -277,7 +301,9 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.DarkSalmon;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.lola_Llença1);
             this.Controls.Add(this.sW_Textbox1);
+            this.Controls.Add(this.sW_ComboFK1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -322,6 +348,8 @@
         private Tlr_controls.Boton_Min boton_Min1;
         private Tlr_controls.Boton_exit boton_exit1;
         private System.Windows.Forms.PictureBox pictureBox6;
+        private Tlr_controls.SW_ComboFK sW_ComboFK1;
         private Tlr_controls.SW_Textbox sW_Textbox1;
+        private Tlr_controls.SW_LLença lola_Llença1;
     }
 }

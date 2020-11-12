@@ -15,6 +15,8 @@ namespace TLR_Dades
 
         private void Connectar()
         {
+            //cnx = "Data Source=JAVIERC;Initial Catalog=SecureCore;Integrated Security=True";
+            //cnx = "Data Source = LAPTOP - 3CMMKCMH\\SQLEXPRESS; Initial Catalog = SecureCore; Integrated Security = True";
             cnx = "Data Source=MSI-EDU\\SQLExpress;Initial Catalog=SecureCore;Integrated Security=True";
             conn = new SqlConnection(cnx);
         }
@@ -72,6 +74,7 @@ namespace TLR_Dades
         public void Actualitzar(DataSet dts, string query)
         {
 
+            Connectar();
             conn.Open();
 
             SqlDataAdapter adapter;
@@ -89,6 +92,7 @@ namespace TLR_Dades
 
         public void Executa(string consulta)
         {
+            Connectar();
             conn.Open();
             SqlCommand cmd;
             cmd = new SqlCommand(consulta, conn);
