@@ -67,3 +67,5 @@ C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInp
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.pdb
