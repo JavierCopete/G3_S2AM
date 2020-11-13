@@ -46,6 +46,15 @@ namespace Tlr_controls
                 _DadaPermesa = value;
             }
         }
+        private string _NomCamp;
+        public string NomCamp
+        {
+            get { return _NomCamp; }
+            set
+            {
+                _NomCamp = value;
+            }
+        }
 
         private bool _Obligatori;
 

@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\DLL\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -50,18 +50,34 @@
     <Compile Include="BaseForm.Designer.cs">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="BaseTaulaSimple.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseTaulaSimple.Designer.cs">
+      <DependentUpon>BaseTaulaSimple.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="BaseForm.resx">
       <DependentUpon>BaseForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="BaseTaulaSimple.resx">
+      <DependentUpon>BaseTaulaSimple.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Tlr_controls\Tlr_controls.csproj">
+    <ProjectReference Include="..\Tlr_controls\TLR_Controls.csproj">
       <Project>{122D07B2-FF89-4ABA-816E-921D036C43E1}</Project>
-      <Name>Tlr_controls</Name>
+      <Name>TLR_Controls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TLR_Dades\TLR_Dades.csproj">
+      <Project>{dbae1ca3-1d0f-4209-ba72-fcacb76333bc}</Project>
+      <Name>TLR_Dades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
