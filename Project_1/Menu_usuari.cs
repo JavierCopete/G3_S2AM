@@ -17,30 +17,55 @@ namespace Project_1
             InitializeComponent();
         }
         public string nom_user;
+
         private void Menu_usuari_Load(object sender, EventArgs e)
         {
             label2.Text = nom_user;
+            pnlPrincipal.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnTaulaSimple_Click(object sender, EventArgs e)
         {
+            if (this.pnlPrincipal.Controls.Count > 0)
+                this.pnlPrincipal.Controls.RemoveAt(0);
+            pnlPrincipal.Show();
             Taula_Simple obj = new Taula_Simple();
+            obj.TopLevel = false;
+            obj.Dock = DockStyle.Fill;
+            this.pnlPrincipal.Controls.Add(obj);
+            this.pnlPrincipal.Tag = obj;
             obj.Show();
         }
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Taula_Cerca obj = new Taula_Cerca();
-            obj.Show();
-        }
-        private void button3_Click(object sender, EventArgs e)
-        {
-            return;
-        }
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Taula_foranea obj = new Taula_foranea();
-            obj.Show();
 
+        private void btnTaulaForanea_Click(object sender, EventArgs e)
+        {
+            if (this.pnlPrincipal.Controls.Count > 0)
+                this.pnlPrincipal.Controls.RemoveAt(0);
+            pnlPrincipal.Show();
+            Taula_Foranea obj = new Taula_Foranea();
+            obj.TopLevel = false;
+            obj.Dock = DockStyle.Fill;
+            this.pnlPrincipal.Controls.Add(obj);
+            this.pnlPrincipal.Tag = obj;
+            obj.Show();
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            pnlPrincipal.Hide();
+        }
+
+        private void btnCerca_Click(object sender, EventArgs e)
+        {
+            if (this.pnlPrincipal.Controls.Count > 0)
+                this.pnlPrincipal.Controls.RemoveAt(0);
+            pnlPrincipal.Show();
+            Taula_Cerca obj = new Taula_Cerca();
+            obj.TopLevel = false;
+            obj.Dock = DockStyle.Fill;
+            this.pnlPrincipal.Controls.Add(obj);
+            this.pnlPrincipal.Tag = obj;
+            obj.Show();
         }
     }
 }

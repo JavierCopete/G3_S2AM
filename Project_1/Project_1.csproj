@@ -69,11 +69,11 @@
     <Compile Include="Taula_Cerca.Designer.cs">
       <DependentUpon>Taula_Cerca.cs</DependentUpon>
     </Compile>
-    <Compile Include="Taula_foranea.cs">
+    <Compile Include="Taula_Foranea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Taula_foranea.Designer.cs">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <Compile Include="Taula_Foranea.Designer.cs">
+      <DependentUpon>Taula_Foranea.cs</DependentUpon>
     </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
@@ -98,8 +98,8 @@
     <EmbeddedResource Include="Taula_Cerca.resx">
       <DependentUpon>Taula_Cerca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Taula_foranea.resx">
-      <DependentUpon>Taula_foranea.cs</DependentUpon>
+    <EmbeddedResource Include="Taula_Foranea.resx">
+      <DependentUpon>Taula_Foranea.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>

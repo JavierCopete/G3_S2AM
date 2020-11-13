@@ -1,6 +1,6 @@
 ﻿namespace Project_1
 {
-    partial class Taula_foranea
+    partial class Taula_Foranea
     {
         /// <summary>
         /// Required designer variable.
