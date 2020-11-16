@@ -151,6 +151,3 @@ C:\Users\Edu\Desktop\G3_S2AM\Project_1\obj\Debug\Project_1.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Project_1.exe.config
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Project_1.exe
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Project_1.pdb
-C:\Users\Usuario\source\repos\DLL\Project_1.exe.config
-C:\Users\Usuario\source\repos\DLL\Project_1.exe
-C:\Users\Usuario\source\repos\DLL\Project_1.pdb

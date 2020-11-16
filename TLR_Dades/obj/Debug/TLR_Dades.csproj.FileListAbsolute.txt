@@ -31,6 +31,3 @@ C:\Users\Edu\Desktop\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csprojAssemblyReferen
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb
-C:\Users\Usuario\source\repos\DLL\Biblioteca_Dades.dll.config
-C:\Users\Usuario\source\repos\DLL\Biblioteca_Dades.dll
-C:\Users\Usuario\source\repos\DLL\Biblioteca_Dades.pdb
