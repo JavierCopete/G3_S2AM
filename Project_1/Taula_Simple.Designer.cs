@@ -28,22 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridViewTextBoxColumn84 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn85 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn86 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn81 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn82 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn83 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn71 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn72 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn73 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn74 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn75 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn76 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn77 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn78 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn79 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn80 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn61 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn62 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn63 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -114,123 +98,9 @@
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn9 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sW_Textbox1 = new Tlr_controls.SW_Textbox();
             this.sW_Textbox2 = new Tlr_controls.SW_Textbox();
-            this.sW_Textbox3 = new Tlr_controls.SW_Textbox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // dataGridViewTextBoxColumn84
-            // 
-            this.dataGridViewTextBoxColumn84.DataPropertyName = "idAgency";
-            this.dataGridViewTextBoxColumn84.HeaderText = "idAgency";
-            this.dataGridViewTextBoxColumn84.Name = "dataGridViewTextBoxColumn84";
-            this.dataGridViewTextBoxColumn84.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn85
-            // 
-            this.dataGridViewTextBoxColumn85.DataPropertyName = "CodeAgency";
-            this.dataGridViewTextBoxColumn85.HeaderText = "CodeAgency";
-            this.dataGridViewTextBoxColumn85.Name = "dataGridViewTextBoxColumn85";
-            this.dataGridViewTextBoxColumn85.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn86
-            // 
-            this.dataGridViewTextBoxColumn86.DataPropertyName = "DescAgency";
-            this.dataGridViewTextBoxColumn86.HeaderText = "DescAgency";
-            this.dataGridViewTextBoxColumn86.Name = "dataGridViewTextBoxColumn86";
-            this.dataGridViewTextBoxColumn86.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn81
-            // 
-            this.dataGridViewTextBoxColumn81.DataPropertyName = "idAgency";
-            this.dataGridViewTextBoxColumn81.HeaderText = "idAgency";
-            this.dataGridViewTextBoxColumn81.Name = "dataGridViewTextBoxColumn81";
-            this.dataGridViewTextBoxColumn81.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn82
-            // 
-            this.dataGridViewTextBoxColumn82.DataPropertyName = "CodeAgency";
-            this.dataGridViewTextBoxColumn82.HeaderText = "CodeAgency";
-            this.dataGridViewTextBoxColumn82.Name = "dataGridViewTextBoxColumn82";
-            this.dataGridViewTextBoxColumn82.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn83
-            // 
-            this.dataGridViewTextBoxColumn83.DataPropertyName = "DescAgency";
-            this.dataGridViewTextBoxColumn83.HeaderText = "DescAgency";
-            this.dataGridViewTextBoxColumn83.Name = "dataGridViewTextBoxColumn83";
-            this.dataGridViewTextBoxColumn83.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn71
-            // 
-            this.dataGridViewTextBoxColumn71.DataPropertyName = "idUser";
-            this.dataGridViewTextBoxColumn71.HeaderText = "idUser";
-            this.dataGridViewTextBoxColumn71.Name = "dataGridViewTextBoxColumn71";
-            this.dataGridViewTextBoxColumn71.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn72
-            // 
-            this.dataGridViewTextBoxColumn72.DataPropertyName = "CodeUser";
-            this.dataGridViewTextBoxColumn72.HeaderText = "CodeUser";
-            this.dataGridViewTextBoxColumn72.Name = "dataGridViewTextBoxColumn72";
-            this.dataGridViewTextBoxColumn72.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn73
-            // 
-            this.dataGridViewTextBoxColumn73.DataPropertyName = "UserName";
-            this.dataGridViewTextBoxColumn73.HeaderText = "UserName";
-            this.dataGridViewTextBoxColumn73.Name = "dataGridViewTextBoxColumn73";
-            this.dataGridViewTextBoxColumn73.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn74
-            // 
-            this.dataGridViewTextBoxColumn74.DataPropertyName = "Login";
-            this.dataGridViewTextBoxColumn74.HeaderText = "Login";
-            this.dataGridViewTextBoxColumn74.Name = "dataGridViewTextBoxColumn74";
-            this.dataGridViewTextBoxColumn74.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn75
-            // 
-            this.dataGridViewTextBoxColumn75.DataPropertyName = "Password";
-            this.dataGridViewTextBoxColumn75.HeaderText = "Password";
-            this.dataGridViewTextBoxColumn75.Name = "dataGridViewTextBoxColumn75";
-            this.dataGridViewTextBoxColumn75.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn76
-            // 
-            this.dataGridViewTextBoxColumn76.DataPropertyName = "idUserRank";
-            this.dataGridViewTextBoxColumn76.HeaderText = "idUserRank";
-            this.dataGridViewTextBoxColumn76.Name = "dataGridViewTextBoxColumn76";
-            this.dataGridViewTextBoxColumn76.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn77
-            // 
-            this.dataGridViewTextBoxColumn77.DataPropertyName = "idUserCategory";
-            this.dataGridViewTextBoxColumn77.HeaderText = "idUserCategory";
-            this.dataGridViewTextBoxColumn77.Name = "dataGridViewTextBoxColumn77";
-            this.dataGridViewTextBoxColumn77.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn78
-            // 
-            this.dataGridViewTextBoxColumn78.DataPropertyName = "Photo";
-            this.dataGridViewTextBoxColumn78.HeaderText = "Photo";
-            this.dataGridViewTextBoxColumn78.Name = "dataGridViewTextBoxColumn78";
-            this.dataGridViewTextBoxColumn78.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn79
-            // 
-            this.dataGridViewTextBoxColumn79.DataPropertyName = "idPlanet";
-            this.dataGridViewTextBoxColumn79.HeaderText = "idPlanet";
-            this.dataGridViewTextBoxColumn79.Name = "dataGridViewTextBoxColumn79";
-            this.dataGridViewTextBoxColumn79.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn80
-            // 
-            this.dataGridViewTextBoxColumn80.DataPropertyName = "idSpecie";
-            this.dataGridViewTextBoxColumn80.HeaderText = "idSpecie";
-            this.dataGridViewTextBoxColumn80.Name = "dataGridViewTextBoxColumn80";
-            this.dataGridViewTextBoxColumn80.ReadOnly = true;
             // 
             // dataGridViewTextBoxColumn61
             // 
@@ -862,67 +732,42 @@
             this.dataGridViewTextBoxColumn10.ReadOnly = true;
             this.dataGridViewTextBoxColumn10.Width = 125;
             // 
+            // sW_Textbox1
+            // 
+            this.sW_Textbox1.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
+            this.sW_Textbox1.Foranea = false;
+            this.sW_Textbox1.Location = new System.Drawing.Point(528, 360);
+            this.sW_Textbox1.Name = "sW_Textbox1";
+            this.sW_Textbox1.NomCamp = "UserName";
+            this.sW_Textbox1.Obligatori = false;
+            this.sW_Textbox1.Size = new System.Drawing.Size(100, 22);
+            this.sW_Textbox1.TabIndex = 4;
+            this.sW_Textbox1.Tag = "";
+            // 
             // sW_Textbox2
             // 
             this.sW_Textbox2.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
             this.sW_Textbox2.Foranea = false;
-            this.sW_Textbox2.Location = new System.Drawing.Point(218, 273);
-            this.sW_Textbox2.Margin = new System.Windows.Forms.Padding(2);
+            this.sW_Textbox2.Location = new System.Drawing.Point(370, 360);
             this.sW_Textbox2.Name = "sW_Textbox2";
-            this.sW_Textbox2.NomCamp = "DescAgency";
+            this.sW_Textbox2.NomCamp = "CodeUser";
             this.sW_Textbox2.Obligatori = false;
-            this.sW_Textbox2.Size = new System.Drawing.Size(200, 20);
+            this.sW_Textbox2.Size = new System.Drawing.Size(100, 22);
             this.sW_Textbox2.TabIndex = 5;
             this.sW_Textbox2.Tag = "";
             // 
-            // sW_Textbox3
-            // 
-            this.sW_Textbox3.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox3.Foranea = false;
-            this.sW_Textbox3.Location = new System.Drawing.Point(218, 230);
-            this.sW_Textbox3.Name = "sW_Textbox3";
-            this.sW_Textbox3.NomCamp = "CodeAgency";
-            this.sW_Textbox3.Obligatori = false;
-            this.sW_Textbox3.Size = new System.Drawing.Size(101, 20);
-            this.sW_Textbox3.TabIndex = 6;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Corbel", 10F);
-            this.label1.Location = new System.Drawing.Point(131, 276);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 17);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "DescAgency";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Corbel", 10F);
-            this.label2.Location = new System.Drawing.Point(131, 230);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(81, 17);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "CodeAgency";
-            // 
             // Taula_Simple
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1026, 640);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.sW_Textbox3);
+            this.ClientSize = new System.Drawing.Size(1368, 831);
             this.Controls.Add(this.sW_Textbox2);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Controls.Add(this.sW_Textbox1);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Taula_Simple";
             this.Load += new System.EventHandler(this.Taula_Simple_Load);
+            this.Controls.SetChildIndex(this.sW_Textbox1, 0);
             this.Controls.SetChildIndex(this.sW_Textbox2, 0);
-            this.Controls.SetChildIndex(this.sW_Textbox3, 0);
-            this.Controls.SetChildIndex(this.label1, 0);
-            this.Controls.SetChildIndex(this.label2, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -940,6 +785,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn9;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn10;
+        private Tlr_controls.SW_Textbox sW_Textbox1;
         private Tlr_controls.SW_Textbox sW_Textbox2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn11;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn12;
@@ -1001,24 +847,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn68;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn69;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn70;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn71;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn72;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn73;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn74;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn75;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn76;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn77;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn78;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn79;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn80;
-        private Tlr_controls.SW_Textbox sW_Textbox3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn81;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn82;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn83;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn84;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn85;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn86;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }

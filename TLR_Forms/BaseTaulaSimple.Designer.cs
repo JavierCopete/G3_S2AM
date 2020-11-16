@@ -82,9 +82,6 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "BaseTaulaSimple";
             this.Load += new System.EventHandler(this.BaseTaulaSimple_Load);
-            this.Controls.SetChildIndex(this.dataGridView1, 0);
-            this.Controls.SetChildIndex(this.btnAdd, 0);
-            this.Controls.SetChildIndex(this.btnUpdate, 0);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 

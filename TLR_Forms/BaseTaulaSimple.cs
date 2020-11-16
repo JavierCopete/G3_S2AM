@@ -29,7 +29,7 @@ namespace TLR_Forms
             
             Dades bbdd = new Dades();
 
-            dts = bbdd.PortarTaula("Agencies");
+            dts = bbdd.PortarTaula("Users");
             infotaula = dts.Tables[0];
             dataGridView1.DataSource = dts.Tables[0];
 
@@ -78,7 +78,7 @@ namespace TLR_Forms
             }
 
             TLR_Dades.Dades bbdd = new TLR_Dades.Dades();
-            string query = "Select * from Agencies";
+            string query = "Select * from Users";
             bbdd.Actualitzar(dts, query);
         }
 
