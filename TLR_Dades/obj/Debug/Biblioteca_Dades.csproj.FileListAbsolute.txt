@@ -1,6 +1,0 @@
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\bin\Debug\Biblioteca_Dades.dll
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\bin\Debug\Biblioteca_Dades.pdb
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.csprojAssemblyReference.cache
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.csproj.CoreCompileInputs.cache
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.dll
-C:\Users\Edu\Documents\GitHub\G3_S2AM\Biblioteca_Dades\obj\Debug\Biblioteca_Dades.pdb
