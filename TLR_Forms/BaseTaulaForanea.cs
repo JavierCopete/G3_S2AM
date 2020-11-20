@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Tlr_controls;
 using TLR_Dades;
-using ControlsTLR;
 
 
 namespace TLR_Forms
@@ -20,6 +19,7 @@ namespace TLR_Forms
         {
             InitializeComponent();
         }
+
         private DataTable infotaula;
         private DataRow dr;
         private DataSet dts;
@@ -45,12 +45,12 @@ namespace TLR_Forms
                     ctr.Validated += new System.EventHandler(this.ValidarTextBox);
                 }
 
-                if (ctr.GetType() == typeof(Tlr_controls.TLRCmbobox1))
+                if (ctr.GetType() == typeof(SW_Combobox))
                 {
-                    ((Tlr_controls.TLRCmbobox1)ctr).Llenar_Combo();
+                    ((SW_Combobox)ctr).Llenar_Combo();
                     ctr.DataBindings.Clear();
                     ctr.Text = string.Empty;
-                    ctr.DataBindings.Add("SelectedValue", infotaula, ((Tlr_controls.TLRCmbobox1)ctr).CampId);
+                    ctr.DataBindings.Add("SelectedValue", infotaula, ((SW_Combobox)ctr).CampId);
                     ctr.Validated += new System.EventHandler(this.ValidarComboBox);
                 }
             }
@@ -93,9 +93,9 @@ namespace TLR_Forms
             {
                 foreach (Control ctr in this.Controls)
                 {
-                    if (ctr.GetType() == typeof(Tlr_controls.TLRCmbobox1))
+                    if (ctr.GetType() == typeof(SW_Combobox))
                     {
-                        dr[((Tlr_controls.TLRCmbobox1)ctr).CampId] = ((ComboBox)ctr).SelectedValue;
+                        dr[((SW_Combobox)ctr).CampId] = ((ComboBox)ctr).SelectedValue;
                     }
                 }
                 infotaula.Rows.Add(dr);

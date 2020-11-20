@@ -15,10 +15,7 @@ namespace Tlr_controls
         public SW_Combobox()
         {
             InitializeComponent();
-            Llenar_Combo();
         }
-
-        Dades bbdd = new Dades();
 
         private void InitializeComponent()
         {
@@ -31,9 +28,7 @@ namespace Tlr_controls
 
         }
 
-
-
-
+        Dades bbdd = new Dades();
         private String _ControlID;
         private String _NomTaula;
 
@@ -52,9 +47,11 @@ namespace Tlr_controls
         public string CampMostrar
         {
             get { return _CampMostrar; }
-            set { _CampMostrar = value; }
+            set
+            {
+                _CampMostrar = value;
+            }
         }
-
 
 
         private string _CampId;
@@ -62,7 +59,10 @@ namespace Tlr_controls
         public string CampId
         {
             get { return _CampId; }
-            set { _CampId = value; }
+            set
+            {
+                _CampId = value;
+            }
         }
 
 
@@ -75,21 +75,28 @@ namespace Tlr_controls
             }
         }
 
-        private void Llenar_Combo()
+        public void Llenar_Combo()
         {
-            string tabla = "Planets";
+            string tabla = this.NomTaula;
             DataSet dts = bbdd.PortarTaula(tabla);
             DataTable dt = dts.Tables[0];
             this.DataSource = dt;
-            this.DisplayMember =this.CampMostrar;
+            this.DisplayMember = this.CampMostrar;
             this.ValueMember = this.CampId;
         }
 
 
-
         private void SW_Combobox_SelectedValueChanged(object sender, EventArgs e)
         {
+            Form frm = this.FindForm();
 
+            foreach (Control ctr in frm.Controls)
+            {
+                if (_ControlID == ctr.Name)
+                {
+                    ctr.Text = SelectedValue.ToString();
+                }
+            }
         }
     }
 }

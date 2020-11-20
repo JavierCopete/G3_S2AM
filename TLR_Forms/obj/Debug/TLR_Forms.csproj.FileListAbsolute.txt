@@ -74,3 +74,4 @@ C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileIn
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaForanea.resources

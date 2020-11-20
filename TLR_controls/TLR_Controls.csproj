@@ -73,9 +73,6 @@
     <Compile Include="SW_LLença.Designer.cs">
       <DependentUpon>SW_LLença.cs</DependentUpon>
     </Compile>
-    <Compile Include="TLRCmbobox1.cs">
-      <SubType>Component</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Boton_exit.resx">
@@ -96,9 +93,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SW_LLença.resx">
       <DependentUpon>SW_LLença.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TLRCmbobox1.resx">
-      <DependentUpon>TLRCmbobox1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

@@ -76,10 +76,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ControlsTLR\ControlsTLR.csproj">
-      <Project>{d5cde3cf-ad94-4b8c-bb28-b523cb3ff462}</Project>
-      <Name>ControlsTLR</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Tlr_controls\TLR_Controls.csproj">
       <Project>{122d07b2-ff89-4aba-816e-921d036c43e1}</Project>
       <Name>TLR_Controls</Name>
