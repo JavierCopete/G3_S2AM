@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\ControlsTLR\bin\Debug\ControlsTLR.dll
+C:\Users\Usuario\source\repos\ControlsTLR\bin\Debug\ControlsTLR.pdb
+C:\Users\Usuario\source\repos\ControlsTLR\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Usuario\source\repos\ControlsTLR\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Usuario\source\repos\ControlsTLR\bin\Debug\Biblioteca_Dades.dll.config
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.TLRCmbobox.resources
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.csproj.CopyComplete
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.dll
+C:\Users\Usuario\source\repos\ControlsTLR\obj\Debug\ControlsTLR.pdb
