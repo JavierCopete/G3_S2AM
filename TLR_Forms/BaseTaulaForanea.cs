@@ -51,6 +51,7 @@ namespace TLR_Forms
                     ctr.DataBindings.Clear();
                     ctr.Text = string.Empty;
                     ctr.DataBindings.Add("SelectedValue", infotaula, ((SW_Combobox)ctr).CampId);
+                    ctr.DataBindings.Add("Text", infotaula, ((SW_Combobox)ctr).CampMostrar);
                     ctr.Validated += new System.EventHandler(this.ValidarComboBox);
                 }
             }

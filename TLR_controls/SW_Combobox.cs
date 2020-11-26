@@ -29,20 +29,21 @@ namespace Tlr_controls
         }
 
         Dades bbdd = new Dades();
-        private String _ControlID;
-        private String _NomTaula;
+        private string _ControlID;
+        private string _NomTaula;
+        private string _CampMostrar;
+        private string _CampId;
 
-        public String ControlID
+
+        public string ControlID
         {
             get { return _ControlID; }
             set
             {
                 _ControlID = value;
             }
-        }
+        }  
 
-
-        private string _CampMostrar;
 
         public string CampMostrar
         {
@@ -53,8 +54,6 @@ namespace Tlr_controls
             }
         }
 
-
-        private string _CampId;
 
         public string CampId
         {
