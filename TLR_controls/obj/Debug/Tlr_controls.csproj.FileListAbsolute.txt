@@ -79,3 +79,17 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Tlr_controls\obj\Debug\TLR_Controls.c
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Tlr_controls\obj\Debug\TLR_Controls.csproj.CopyComplete
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Tlr_controls\obj\Debug\Tlr_controls.pdb
+C:\Users\reiva\source\repos\G3\DLL\Tlr_controls.dll
+C:\Users\reiva\source\repos\G3\DLL\Tlr_controls.pdb
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\TLR_Controls.csprojAssemblyReference.cache
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.Boton_exit.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.Boton_Min.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.Properties.Resources.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.SW_Combobox.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.SW_Textbox.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.SW_LLença.resources
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\TLR_Controls.csproj.GenerateResource.cache
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\TLR_Controls.csproj.CoreCompileInputs.cache
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\TLR_Controls.csproj.CopyComplete
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.dll
+C:\Users\reiva\source\repos\G3\Tlr_controls\obj\Debug\Tlr_controls.pdb

@@ -35,3 +35,10 @@ C:\Users\Usuario\source\repos\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Biblioteca_Dades.dll.config
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Biblioteca_Dades.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\Biblioteca_Dades.pdb
+C:\Users\reiva\source\repos\G3\DLL\Biblioteca_Dades.dll.config
+C:\Users\reiva\source\repos\G3\DLL\Biblioteca_Dades.dll
+C:\Users\reiva\source\repos\G3\DLL\Biblioteca_Dades.pdb
+C:\Users\reiva\source\repos\G3\TLR_Dades\obj\Debug\TLR_Dades.csprojAssemblyReference.cache
+C:\Users\reiva\source\repos\G3\TLR_Dades\obj\Debug\TLR_Dades.csproj.CoreCompileInputs.cache
+C:\Users\reiva\source\repos\G3\TLR_Dades\obj\Debug\Biblioteca_Dades.dll
+C:\Users\reiva\source\repos\G3\TLR_Dades\obj\Debug\Biblioteca_Dades.pdb

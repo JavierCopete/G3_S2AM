@@ -62,7 +62,7 @@
             this.label6.Font = new System.Drawing.Font("Corbel", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label6.Location = new System.Drawing.Point(212, 687);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 49);
+            this.label6.Size = new System.Drawing.Size(0, 61);
             this.label6.TabIndex = 11;
             // 
             // panel1
@@ -109,7 +109,7 @@
             this.label5.Font = new System.Drawing.Font("Corbel", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label5.Location = new System.Drawing.Point(28, 443);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 23);
+            this.label5.Size = new System.Drawing.Size(0, 29);
             this.label5.TabIndex = 11;
             // 
             // label4
@@ -118,7 +118,7 @@
             this.label4.Font = new System.Drawing.Font("Corbel", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(171, 379);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 23);
+            this.label4.Size = new System.Drawing.Size(178, 29);
             this.label4.TabIndex = 9;
             this.label4.Text = "CONTRASENYA";
             // 
@@ -139,7 +139,7 @@
             this.textBox1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(120, 341);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(241, 31);
+            this.textBox1.Size = new System.Drawing.Size(241, 36);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -149,7 +149,7 @@
             this.label2.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(195, 375);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 23);
+            this.label2.Size = new System.Drawing.Size(0, 29);
             this.label2.TabIndex = 6;
             // 
             // label1
@@ -158,7 +158,7 @@
             this.label1.Font = new System.Drawing.Font("Corbel", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(216, 310);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 23);
+            this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 5;
             // 
             // label3
@@ -167,7 +167,7 @@
             this.label3.Font = new System.Drawing.Font("Corbel", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(204, 315);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(75, 23);
+            this.label3.Size = new System.Drawing.Size(95, 29);
             this.label3.TabIndex = 8;
             this.label3.Text = "USUARI";
             // 
@@ -178,7 +178,7 @@
             this.textBox2.Location = new System.Drawing.Point(120, 405);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '✶';
-            this.textBox2.Size = new System.Drawing.Size(241, 31);
+            this.textBox2.Size = new System.Drawing.Size(241, 36);
             this.textBox2.TabIndex = 1;
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox2.Validating += new System.ComponentModel.CancelEventHandler(this.textBox2_Validating);
@@ -216,7 +216,6 @@
             this.Name = "Log_in";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Log in";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Log_in_Load);
             this.panel4.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

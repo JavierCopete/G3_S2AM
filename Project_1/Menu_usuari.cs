@@ -67,5 +67,10 @@ namespace Project_1
             this.pnlPrincipal.Tag = obj;
             obj.Show();
         }
+
+        private void pnlPrincipal_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

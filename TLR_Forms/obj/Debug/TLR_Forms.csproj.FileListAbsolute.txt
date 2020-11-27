@@ -75,3 +75,14 @@ C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaForanea.resources
+C:\Users\reiva\source\repos\G3\DLL\TLR_Forms.dll
+C:\Users\reiva\source\repos\G3\DLL\TLR_Forms.pdb
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.csprojAssemblyReference.cache
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.BaseForm.resources
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaForanea.resources
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaSimple.resources
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.csproj.GenerateResource.cache
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInputs.cache
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.dll
+C:\Users\reiva\source\repos\G3\TLR_Forms\obj\Debug\TLR_Forms.pdb

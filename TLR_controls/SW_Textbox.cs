@@ -145,11 +145,6 @@ namespace Tlr_controls
                     }
                     break;
             }
-
-            if (Foranea == true)
-            {
-                //FALTA HACER
-            }
         }
 
         private void SW_Textbox_Enter(object sender, EventArgs e)
