@@ -28,6 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.dataGridViewTextBoxColumn196 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn197 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn198 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn199 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn200 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn201 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn202 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn203 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn204 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn205 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn206 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn207 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn208 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn183 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn184 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn185 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -226,6 +239,123 @@
             this.test = new Tlr_controls.SW_Textbox();
             this.sW_Combobox1 = new Tlr_controls.SW_Combobox();
             this.SuspendLayout();
+            // 
+            // dataGridViewTextBoxColumn196
+            // 
+            this.dataGridViewTextBoxColumn196.DataPropertyName = "idPlanet";
+            this.dataGridViewTextBoxColumn196.HeaderText = "idPlanet";
+            this.dataGridViewTextBoxColumn196.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn196.Name = "dataGridViewTextBoxColumn196";
+            this.dataGridViewTextBoxColumn196.ReadOnly = true;
+            this.dataGridViewTextBoxColumn196.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn197
+            // 
+            this.dataGridViewTextBoxColumn197.DataPropertyName = "CodePlanet";
+            this.dataGridViewTextBoxColumn197.HeaderText = "CodePlanet";
+            this.dataGridViewTextBoxColumn197.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn197.Name = "dataGridViewTextBoxColumn197";
+            this.dataGridViewTextBoxColumn197.ReadOnly = true;
+            this.dataGridViewTextBoxColumn197.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn198
+            // 
+            this.dataGridViewTextBoxColumn198.DataPropertyName = "DescPlanet";
+            this.dataGridViewTextBoxColumn198.HeaderText = "DescPlanet";
+            this.dataGridViewTextBoxColumn198.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn198.Name = "dataGridViewTextBoxColumn198";
+            this.dataGridViewTextBoxColumn198.ReadOnly = true;
+            this.dataGridViewTextBoxColumn198.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn199
+            // 
+            this.dataGridViewTextBoxColumn199.DataPropertyName = "idSector";
+            this.dataGridViewTextBoxColumn199.HeaderText = "idSector";
+            this.dataGridViewTextBoxColumn199.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn199.Name = "dataGridViewTextBoxColumn199";
+            this.dataGridViewTextBoxColumn199.ReadOnly = true;
+            this.dataGridViewTextBoxColumn199.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn200
+            // 
+            this.dataGridViewTextBoxColumn200.DataPropertyName = "long";
+            this.dataGridViewTextBoxColumn200.HeaderText = "long";
+            this.dataGridViewTextBoxColumn200.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn200.Name = "dataGridViewTextBoxColumn200";
+            this.dataGridViewTextBoxColumn200.ReadOnly = true;
+            this.dataGridViewTextBoxColumn200.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn201
+            // 
+            this.dataGridViewTextBoxColumn201.DataPropertyName = "lat";
+            this.dataGridViewTextBoxColumn201.HeaderText = "lat";
+            this.dataGridViewTextBoxColumn201.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn201.Name = "dataGridViewTextBoxColumn201";
+            this.dataGridViewTextBoxColumn201.ReadOnly = true;
+            this.dataGridViewTextBoxColumn201.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn202
+            // 
+            this.dataGridViewTextBoxColumn202.DataPropertyName = "parsecs";
+            this.dataGridViewTextBoxColumn202.HeaderText = "parsecs";
+            this.dataGridViewTextBoxColumn202.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn202.Name = "dataGridViewTextBoxColumn202";
+            this.dataGridViewTextBoxColumn202.ReadOnly = true;
+            this.dataGridViewTextBoxColumn202.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn203
+            // 
+            this.dataGridViewTextBoxColumn203.DataPropertyName = "idNatives";
+            this.dataGridViewTextBoxColumn203.HeaderText = "idNatives";
+            this.dataGridViewTextBoxColumn203.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn203.Name = "dataGridViewTextBoxColumn203";
+            this.dataGridViewTextBoxColumn203.ReadOnly = true;
+            this.dataGridViewTextBoxColumn203.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn204
+            // 
+            this.dataGridViewTextBoxColumn204.DataPropertyName = "idFiliation";
+            this.dataGridViewTextBoxColumn204.HeaderText = "idFiliation";
+            this.dataGridViewTextBoxColumn204.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn204.Name = "dataGridViewTextBoxColumn204";
+            this.dataGridViewTextBoxColumn204.ReadOnly = true;
+            this.dataGridViewTextBoxColumn204.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn205
+            // 
+            this.dataGridViewTextBoxColumn205.DataPropertyName = "PlanetPicture";
+            this.dataGridViewTextBoxColumn205.HeaderText = "PlanetPicture";
+            this.dataGridViewTextBoxColumn205.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn205.Name = "dataGridViewTextBoxColumn205";
+            this.dataGridViewTextBoxColumn205.ReadOnly = true;
+            this.dataGridViewTextBoxColumn205.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn206
+            // 
+            this.dataGridViewTextBoxColumn206.DataPropertyName = "IPPlanet";
+            this.dataGridViewTextBoxColumn206.HeaderText = "IPPlanet";
+            this.dataGridViewTextBoxColumn206.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn206.Name = "dataGridViewTextBoxColumn206";
+            this.dataGridViewTextBoxColumn206.ReadOnly = true;
+            this.dataGridViewTextBoxColumn206.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn207
+            // 
+            this.dataGridViewTextBoxColumn207.DataPropertyName = "PortPlanet";
+            this.dataGridViewTextBoxColumn207.HeaderText = "PortPlanet";
+            this.dataGridViewTextBoxColumn207.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn207.Name = "dataGridViewTextBoxColumn207";
+            this.dataGridViewTextBoxColumn207.ReadOnly = true;
+            this.dataGridViewTextBoxColumn207.Width = 125;
+            // 
+            // dataGridViewTextBoxColumn208
+            // 
+            this.dataGridViewTextBoxColumn208.DataPropertyName = "PortPlanet1";
+            this.dataGridViewTextBoxColumn208.HeaderText = "PortPlanet1";
+            this.dataGridViewTextBoxColumn208.MinimumWidth = 6;
+            this.dataGridViewTextBoxColumn208.Name = "dataGridViewTextBoxColumn208";
+            this.dataGridViewTextBoxColumn208.ReadOnly = true;
+            this.dataGridViewTextBoxColumn208.Width = 125;
             // 
             // dataGridViewTextBoxColumn183
             // 
@@ -2015,6 +2145,7 @@
             this.Controls.Add(this.test);
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Name = "Taula_Foranea";
+            this.NomTaula = "Planets";
             this.Text = "TaulaForanea";
             this.Load += new System.EventHandler(this.TaulaForanea_Load);
             this.Controls.SetChildIndex(this.test, 0);
@@ -2223,5 +2354,18 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn193;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn194;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn195;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn196;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn197;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn198;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn199;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn200;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn201;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn202;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn203;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn204;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn205;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn206;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn207;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn208;
     }
 }

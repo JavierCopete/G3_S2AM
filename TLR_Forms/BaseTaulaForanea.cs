@@ -25,12 +25,21 @@ namespace TLR_Forms
         private DataSet dts;
         private Boolean flag_Textbox;
         private Boolean flag_Combobox;
+        private string _NomTaula = "Planets";
+
+        public string NomTaula
+        {
+            get { return _NomTaula; }
+            set { _NomTaula = value; }
+        }
 
         private void BaseTaulaForanea_Load(object sender, EventArgs e)
         {
+            if (DesignMode) return;
+
             Dades bbdd = new Dades();
 
-            dts = bbdd.PortarTaula("Planets");
+            dts = bbdd.PortarTaula(NomTaula);
             infotaula = dts.Tables[0];
             dataGridView1.DataSource = dts.Tables[0];
 
@@ -104,7 +113,7 @@ namespace TLR_Forms
             }
 
             TLR_Dades.Dades bbdd = new TLR_Dades.Dades();
-            string query = "Select * from Planets";
+            string query = "select * from " + NomTaula;
             bbdd.Actualitzar(dts, query);
         }
 
