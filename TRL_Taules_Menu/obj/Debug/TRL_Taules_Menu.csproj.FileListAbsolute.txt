@@ -1,0 +1,9 @@
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TRL_Taules_Menu.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TRL_Taules_Menu.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.Exemple.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.csproj.CopyComplete
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TRL_Taules_Menu\obj\Debug\TRL_Taules_Menu.pdb

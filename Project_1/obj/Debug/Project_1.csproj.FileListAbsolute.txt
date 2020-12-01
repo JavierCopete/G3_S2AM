@@ -79,13 +79,10 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\bin\Debug\Tlr_controls.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\bin\Debug\Biblioteca_Dades.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\bin\Debug\TLR_Forms.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.csprojAssemblyReference.cache
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Taula_Cerca.resources
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Taula_foranea.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Log_in.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Menu_usuari.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Splash.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Properties.Resources.resources
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.Taula_Simple.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.GenerateResource.cache
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.CoreCompileInputs.cache
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\Project_1\obj\Debug\Project_1.csproj.CopyComplete

@@ -7,19 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TLR_Forms;
 
-namespace Project_1
+namespace TRL_Taules_Menu
 {
-    public partial class Taula_Cerca : TLR_Forms.BaseForm
+    public partial class Exemple : BaseTaulaSimple
     {
-        public Taula_Cerca()
+        public Exemple()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

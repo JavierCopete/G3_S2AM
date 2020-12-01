@@ -57,24 +57,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>SecureCoreDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Taula_Foranea.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taula_Foranea.Designer.cs">
-      <DependentUpon>Taula_Foranea.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Taula_Simple.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taula_Simple.Designer.cs">
-      <DependentUpon>Taula_Simple.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Taula_Cerca.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Taula_Cerca.Designer.cs">
-      <DependentUpon>Taula_Cerca.cs</DependentUpon>
-    </Compile>
     <Compile Include="Menu_usuari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,12 +77,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Taula_Foranea.resx">
-      <DependentUpon>Taula_Foranea.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Taula_Cerca.resx">
-      <DependentUpon>Taula_Cerca.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,9 +96,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Taula_Simple.resx">
-      <DependentUpon>Taula_Simple.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

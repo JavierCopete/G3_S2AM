@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Project_1
+namespace TRL_Taules_Menu
 {
-    public partial class Taula_Foranea : TLR_Forms.BaseTaulaForanea
+    public partial class Exemple2 : Form
     {
-        public Taula_Foranea()
+        public Exemple2()
         {
             InitializeComponent();
-        }
-
-        private void TaulaForanea_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

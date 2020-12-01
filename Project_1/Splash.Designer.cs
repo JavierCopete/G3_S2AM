@@ -43,9 +43,9 @@
             this.progressBar1.BackColor = System.Drawing.Color.Peru;
             this.progressBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.progressBar1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.progressBar1.Location = new System.Drawing.Point(0, 421);
+            this.progressBar1.Location = new System.Drawing.Point(0, 532);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(800, 22);
+            this.progressBar1.Size = new System.Drawing.Size(1067, 22);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 0;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
@@ -59,7 +59,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = global::Project_1.Properties.Resources.tlr;
-            this.pictureBox2.Location = new System.Drawing.Point(328, 55);
+            this.pictureBox2.Location = new System.Drawing.Point(462, 114);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(146, 50);
             this.pictureBox2.TabIndex = 2;
@@ -69,9 +69,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Project_1.Properties.Resources.logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(301, 111);
+            this.pictureBox1.Location = new System.Drawing.Point(416, 170);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 216);
+            this.pictureBox1.Size = new System.Drawing.Size(241, 252);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -82,14 +82,14 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 22);
+            this.panel1.Size = new System.Drawing.Size(1067, 22);
             this.panel1.TabIndex = 0;
             // 
             // Splash
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.DarkSalmon;
-            this.ClientSize = new System.Drawing.Size(800, 443);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.pictureBox1);
