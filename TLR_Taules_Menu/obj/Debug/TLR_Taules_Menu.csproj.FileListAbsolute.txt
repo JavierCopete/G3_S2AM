@@ -1,0 +1,17 @@
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\TLR_Taules_Menu.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\TLR_Taules_Menu.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\Biblioteca_Dades.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\Tlr_controls.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\TLR_Forms.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\Tlr_controls.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\Biblioteca_Dades.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\Biblioteca_Dades.dll.config
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\TLR_Forms.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.csproj.CopyComplete
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Especies.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Planets.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.csprojAssemblyReference.cache

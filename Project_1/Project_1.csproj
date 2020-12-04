@@ -232,6 +232,10 @@
       <Project>{314d08cf-4e9a-40f0-8b89-d36549ff4bd6}</Project>
       <Name>TLR_Forms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TLR_Taules_Menu\TLR_Taules_Menu.csproj">
+      <Project>{ec58c901-1ecb-481d-a0bb-7976e5c61e94}</Project>
+      <Name>TLR_Taules_Menu</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\640961.png" />

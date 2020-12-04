@@ -9,13 +9,18 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using TLR_Forms;
 
-namespace TRL_Taules_Menu
+namespace TLR_Taules_Menu
 {
-    public partial class Gestio_Planets : BaseTaulaSimple
+    public partial class Gestio_Especies : BaseTaulaSimple
     {
-        public Gestio_Planets()
+        public Gestio_Especies()
         {
             InitializeComponent();
+        }
+
+        private void Gestio_Planets_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("TRL_Taules_Menu")]
+[assembly: AssemblyTitle("TLR_Taules_Menu")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TRL_Taules_Menu")]
+[assembly: AssemblyProduct("TLR_Taules_Menu")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("e3f55be2-73fe-4c68-9a34-48eca6eb7f3c")]
+[assembly: Guid("ec58c901-1ecb-481d-a0bb-7976e5c61e94")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

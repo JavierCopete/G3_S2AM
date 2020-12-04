@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E3F55BE2-73FE-4C68-9A34-48ECA6EB7F3C}</ProjectGuid>
+    <ProjectGuid>{EC58C901-1ECB-481D-A0BB-7976E5C61E94}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TRL_Taules_Menu</RootNamespace>
-    <AssemblyName>TRL_Taules_Menu</AssemblyName>
+    <RootNamespace>TLR_Taules_Menu</RootNamespace>
+    <AssemblyName>TLR_Taules_Menu</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\DLL\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -44,17 +44,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Gestio_Planets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestio_Planets.Designer.cs">
+      <DependentUpon>Gestio_Planets.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestio_Especies.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Gestio_Especies.Designer.cs">
       <DependentUpon>Gestio_Especies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Gestio_Planets.cs">
+    <Compile Include="Menu_Options.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Gestio_Planets.Designer.cs">
-      <DependentUpon>Gestio_Planets.cs</DependentUpon>
+    <Compile Include="Menu_Options.Designer.cs">
+      <DependentUpon>Menu_Options.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
