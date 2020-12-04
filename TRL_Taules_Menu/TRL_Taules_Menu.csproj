@@ -44,17 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Exemple.cs">
+    <Compile Include="Gestio_Especies.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exemple.Designer.cs">
-      <DependentUpon>Exemple.cs</DependentUpon>
+    <Compile Include="Gestio_Especies.Designer.cs">
+      <DependentUpon>Gestio_Especies.cs</DependentUpon>
     </Compile>
-    <Compile Include="Exemple2.cs">
+    <Compile Include="Gestio_Planets.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Exemple2.Designer.cs">
-      <DependentUpon>Exemple2.cs</DependentUpon>
+    <Compile Include="Gestio_Planets.Designer.cs">
+      <DependentUpon>Gestio_Planets.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -73,8 +73,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Exemple.resx">
-      <DependentUpon>Exemple.cs</DependentUpon>
+    <EmbeddedResource Include="Gestio_Especies.resx">
+      <DependentUpon>Gestio_Especies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gestio_Planets.resx">
+      <DependentUpon>Gestio_Planets.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

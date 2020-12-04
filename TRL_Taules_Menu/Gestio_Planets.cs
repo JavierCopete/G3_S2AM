@@ -11,9 +11,9 @@ using TLR_Forms;
 
 namespace TRL_Taules_Menu
 {
-    public partial class Exemple : BaseTaulaSimple
+    public partial class Gestio_Planets : BaseTaulaSimple
     {
-        public Exemple()
+        public Gestio_Planets()
         {
             InitializeComponent();
         }

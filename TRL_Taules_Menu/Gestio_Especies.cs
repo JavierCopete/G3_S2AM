@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TLR_Forms;
 
 namespace TRL_Taules_Menu
 {
-    public partial class Exemple2 : Form
+    public partial class Gestio_Especies : BaseTaulaSimple
     {
-        public Exemple2()
+        public Gestio_Especies()
         {
             InitializeComponent();
         }

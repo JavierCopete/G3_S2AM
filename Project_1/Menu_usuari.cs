@@ -32,7 +32,6 @@ namespace Project_1
         private void Menu_usuari_Load(object sender, EventArgs e)
         {
             lblUser.Text = nom_user;
-            pnlPrincipal.Hide();
 
             Dades bbdd = new Dades();
             string query = "select * from Menu";
@@ -50,58 +49,7 @@ namespace Project_1
                 btn.DLL = DLL;
 
                 tlpButtons.Controls.Add(btn);
-
-                //query = "select * from users";
-                //DataSet dtss = bbdd.PortarPerConsulta(query);
             }            
         }
-
-
-
-
-
-        //private void btnTaulaSimple_Click(object sender, EventArgs e)
-        //{
-        //    if (this.pnlPrincipal.Controls.Count > 0)
-        //        this.pnlPrincipal.Controls.RemoveAt(0);
-        //    pnlPrincipal.Show();
-        //    Taula_Simple obj = new Taula_Simple();
-        //    obj.TopLevel = false;
-        //    obj.Dock = DockStyle.Fill;
-        //    this.pnlPrincipal.Controls.Add(obj);
-        //    this.pnlPrincipal.Tag = obj;
-        //    obj.Show();
-        //}
-
-        //private void btnTaulaForanea_Click(object sender, EventArgs e)
-        //{
-        //    if (this.pnlPrincipal.Controls.Count > 0)
-        //        this.pnlPrincipal.Controls.RemoveAt(0);
-        //    pnlPrincipal.Show();
-        //    Taula_Foranea obj = new Taula_Foranea();
-        //    obj.TopLevel = false;
-        //    obj.Dock = DockStyle.Fill;
-        //    this.pnlPrincipal.Controls.Add(obj);
-        //    this.pnlPrincipal.Tag = obj;
-        //    obj.Show();
-        //}
-
-        //private void btnMenu_Click(object sender, EventArgs e)
-        //{
-        //    pnlPrincipal.Hide();
-        //}
-
-        //private void btnCerca_Click(object sender, EventArgs e)
-        //{
-        //    if (this.pnlPrincipal.Controls.Count > 0)
-        //        this.pnlPrincipal.Controls.RemoveAt(0);
-        //    pnlPrincipal.Show();
-        //    Taula_Cerca obj = new Taula_Cerca();
-        //    obj.TopLevel = false;
-        //    obj.Dock = DockStyle.Fill;
-        //    this.pnlPrincipal.Controls.Add(obj);
-        //    this.pnlPrincipal.Tag = obj; 
-        //    obj.Show();
-        //}
     }
 }
