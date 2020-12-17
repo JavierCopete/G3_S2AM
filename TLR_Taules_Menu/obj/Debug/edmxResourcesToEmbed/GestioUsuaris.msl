@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GestioUsuarisModelStoreContainer" CdmEntityContainer="GestioUsuarisEntities">
+    <EntitySetMapping Name="Filiations">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.Filiation">
+        <MappingFragment StoreEntitySet="Filiations">
+          <ScalarProperty Name="idFiliation" ColumnName="idFiliation" />
+          <ScalarProperty Name="CodeFiliation" ColumnName="CodeFiliation" />
+          <ScalarProperty Name="DescFiliations" ColumnName="DescFiliations" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planets">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.Planet">
+        <MappingFragment StoreEntitySet="Planets">
+          <ScalarProperty Name="idPlanet" ColumnName="idPlanet" />
+          <ScalarProperty Name="CodePlanet" ColumnName="CodePlanet" />
+          <ScalarProperty Name="DescPlanet" ColumnName="DescPlanet" />
+          <ScalarProperty Name="idSector" ColumnName="idSector" />
+          <ScalarProperty Name="long" ColumnName="long" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="parsecs" ColumnName="parsecs" />
+          <ScalarProperty Name="idNatives" ColumnName="idNatives" />
+          <ScalarProperty Name="idFiliation" ColumnName="idFiliation" />
+          <ScalarProperty Name="PlanetPicture" ColumnName="PlanetPicture" />
+          <ScalarProperty Name="IPPlanet" ColumnName="IPPlanet" />
+          <ScalarProperty Name="PortPlanet" ColumnName="PortPlanet" />
+          <ScalarProperty Name="PortPlanet1" ColumnName="PortPlanet1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Regions">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.Region">
+        <MappingFragment StoreEntitySet="Regions">
+          <ScalarProperty Name="idRegion" ColumnName="idRegion" />
+          <ScalarProperty Name="CodeRegion" ColumnName="CodeRegion" />
+          <ScalarProperty Name="DescRegion" ColumnName="DescRegion" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sectors">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.Sector">
+        <MappingFragment StoreEntitySet="Sectors">
+          <ScalarProperty Name="idSector" ColumnName="idSector" />
+          <ScalarProperty Name="CodeSector" ColumnName="CodeSector" />
+          <ScalarProperty Name="DescSector" ColumnName="DescSector" />
+          <ScalarProperty Name="Remarks" ColumnName="Remarks" />
+          <ScalarProperty Name="idRegion" ColumnName="idRegion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserCategories">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.UserCategory">
+        <MappingFragment StoreEntitySet="UserCategories">
+          <ScalarProperty Name="idUserCategory" ColumnName="idUserCategory" />
+          <ScalarProperty Name="CodeCategory" ColumnName="CodeCategory" />
+          <ScalarProperty Name="DescCategory" ColumnName="DescCategory" />
+          <ScalarProperty Name="AccessLevel" ColumnName="AccessLevel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRanks">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.UserRank">
+        <MappingFragment StoreEntitySet="UserRanks">
+          <ScalarProperty Name="idUserRank" ColumnName="idUserRank" />
+          <ScalarProperty Name="CodeRank" ColumnName="CodeRank" />
+          <ScalarProperty Name="DescRank" ColumnName="DescRank" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="GestioUsuarisModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="idUser" ColumnName="idUser" />
+          <ScalarProperty Name="CodeUser" ColumnName="CodeUser" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="idUserRank" ColumnName="idUserRank" />
+          <ScalarProperty Name="idUserCategory" ColumnName="idUserCategory" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="idPlanet" ColumnName="idPlanet" />
+          <ScalarProperty Name="idSpecie" ColumnName="idSpecie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -124,11 +124,12 @@ namespace TLR_Taules_Menu
             this.sW_Combobox1.CampId = "idPlanet";
             this.sW_Combobox1.CampMostrar = "idSector";
             this.sW_Combobox1.ControlID = "Pkey";
+            this.sW_Combobox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Combobox1.FormattingEnabled = true;
             this.sW_Combobox1.Location = new System.Drawing.Point(598, 124);
             this.sW_Combobox1.Name = "sW_Combobox1";
             this.sW_Combobox1.NomTaula = "Planets";
-            this.sW_Combobox1.Size = new System.Drawing.Size(58, 24);
+            this.sW_Combobox1.Size = new System.Drawing.Size(58, 31);
             this.sW_Combobox1.TabIndex = 14;
             // 
             // label8
@@ -154,7 +155,7 @@ namespace TLR_Taules_Menu
             // Pkey
             // 
             this.Pkey.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.Pkey.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Pkey.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Pkey.Foranea = false;
             this.Pkey.Location = new System.Drawing.Point(252, 121);
             this.Pkey.Multiline = true;
@@ -167,66 +168,66 @@ namespace TLR_Taules_Menu
             // sW_Textbox2
             // 
             this.sW_Textbox2.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox2.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sW_Textbox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Textbox2.Foranea = false;
             this.sW_Textbox2.Location = new System.Drawing.Point(252, 226);
             this.sW_Textbox2.Multiline = true;
             this.sW_Textbox2.Name = "sW_Textbox2";
             this.sW_Textbox2.NomCamp = "CodePlanet";
             this.sW_Textbox2.Obligatori = false;
-            this.sW_Textbox2.Size = new System.Drawing.Size(116, 28);
+            this.sW_Textbox2.Size = new System.Drawing.Size(163, 28);
             this.sW_Textbox2.TabIndex = 18;
             // 
             // sW_Textbox3
             // 
             this.sW_Textbox3.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox3.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sW_Textbox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Textbox3.Foranea = false;
             this.sW_Textbox3.Location = new System.Drawing.Point(252, 324);
             this.sW_Textbox3.Multiline = true;
             this.sW_Textbox3.Name = "sW_Textbox3";
             this.sW_Textbox3.NomCamp = "DescPlanet";
             this.sW_Textbox3.Obligatori = false;
-            this.sW_Textbox3.Size = new System.Drawing.Size(116, 28);
+            this.sW_Textbox3.Size = new System.Drawing.Size(163, 28);
             this.sW_Textbox3.TabIndex = 19;
             // 
             // sW_Textbox4
             // 
             this.sW_Textbox4.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox4.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sW_Textbox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Textbox4.Foranea = false;
             this.sW_Textbox4.Location = new System.Drawing.Point(598, 223);
             this.sW_Textbox4.Multiline = true;
             this.sW_Textbox4.Name = "sW_Textbox4";
             this.sW_Textbox4.NomCamp = "long";
             this.sW_Textbox4.Obligatori = false;
-            this.sW_Textbox4.Size = new System.Drawing.Size(101, 28);
+            this.sW_Textbox4.Size = new System.Drawing.Size(135, 28);
             this.sW_Textbox4.TabIndex = 20;
             // 
             // sW_Textbox5
             // 
             this.sW_Textbox5.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox5.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sW_Textbox5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Textbox5.Foranea = false;
             this.sW_Textbox5.Location = new System.Drawing.Point(598, 325);
             this.sW_Textbox5.Multiline = true;
             this.sW_Textbox5.Name = "sW_Textbox5";
             this.sW_Textbox5.NomCamp = "lat";
             this.sW_Textbox5.Obligatori = false;
-            this.sW_Textbox5.Size = new System.Drawing.Size(101, 28);
+            this.sW_Textbox5.Size = new System.Drawing.Size(135, 28);
             this.sW_Textbox5.TabIndex = 21;
             // 
             // sW_Textbox6
             // 
             this.sW_Textbox6.DadaPermesa = Tlr_controls.SW_Textbox.TipusDada.Number;
-            this.sW_Textbox6.Font = new System.Drawing.Font("Corbel", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sW_Textbox6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Textbox6.Foranea = false;
             this.sW_Textbox6.Location = new System.Drawing.Point(1002, 121);
             this.sW_Textbox6.Multiline = true;
             this.sW_Textbox6.Name = "sW_Textbox6";
             this.sW_Textbox6.NomCamp = "parsecs";
             this.sW_Textbox6.Obligatori = false;
-            this.sW_Textbox6.Size = new System.Drawing.Size(101, 28);
+            this.sW_Textbox6.Size = new System.Drawing.Size(137, 28);
             this.sW_Textbox6.TabIndex = 22;
             // 
             // sW_Combobox2
@@ -234,11 +235,12 @@ namespace TLR_Taules_Menu
             this.sW_Combobox2.CampId = "idPlanet";
             this.sW_Combobox2.CampMostrar = "idFiliation";
             this.sW_Combobox2.ControlID = "Pkey";
+            this.sW_Combobox2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Combobox2.FormattingEnabled = true;
             this.sW_Combobox2.Location = new System.Drawing.Point(1002, 229);
             this.sW_Combobox2.Name = "sW_Combobox2";
             this.sW_Combobox2.NomTaula = "Planets";
-            this.sW_Combobox2.Size = new System.Drawing.Size(121, 24);
+            this.sW_Combobox2.Size = new System.Drawing.Size(121, 31);
             this.sW_Combobox2.TabIndex = 23;
             // 
             // sW_Combobox3
@@ -246,11 +248,12 @@ namespace TLR_Taules_Menu
             this.sW_Combobox3.CampId = "idPlanet";
             this.sW_Combobox3.CampMostrar = "idNatives";
             this.sW_Combobox3.ControlID = "Pkey";
+            this.sW_Combobox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sW_Combobox3.FormattingEnabled = true;
             this.sW_Combobox3.Location = new System.Drawing.Point(1002, 334);
             this.sW_Combobox3.Name = "sW_Combobox3";
             this.sW_Combobox3.NomTaula = "Planets";
-            this.sW_Combobox3.Size = new System.Drawing.Size(121, 24);
+            this.sW_Combobox3.Size = new System.Drawing.Size(121, 31);
             this.sW_Combobox3.TabIndex = 24;
             // 
             // Gestio_Planets

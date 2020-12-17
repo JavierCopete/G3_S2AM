@@ -15,3 +15,11 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Especies.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Planets.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Menu_Options.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Categoria_Usuari.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\obj\Debug\TLR_Taules_Menu.Gestio_Usuari.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\TLR_Taules_Menu.dll.config
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\EntityFramework.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\EntityFramework.xml
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Taules_Menu\bin\Debug\EntityFramework.SqlServer.xml

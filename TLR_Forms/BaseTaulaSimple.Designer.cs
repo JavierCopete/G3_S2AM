@@ -88,9 +88,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnUpdate;
+        protected System.Windows.Forms.DataGridView dataGridView1;
     }
 }

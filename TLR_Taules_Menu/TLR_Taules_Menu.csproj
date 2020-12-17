@@ -31,9 +31,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Project_1\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\Project_1\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,7 +52,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CategoriesUsuari.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesUsuari.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriesUsuari.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesUsuari.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CategoriesUsuari.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CategoriesUsuari.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Filiation.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GestioUsuaris.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestioUsuaris.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GestioUsuaris.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GestioUsuaris.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GestioUsuaris.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Gestio_Categoria_Usuari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestio_Categoria_Usuari.Designer.cs">
+      <DependentUpon>Gestio_Categoria_Usuari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gestio_Usuari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gestio_Usuari.Designer.cs">
+      <DependentUpon>Gestio_Usuari.cs</DependentUpon>
+    </Compile>
     <Compile Include="Gestio_Planets.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,7 +115,25 @@
     <Compile Include="Menu_Options.Designer.cs">
       <DependentUpon>Menu_Options.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planet.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Region.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Sector.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserCategory.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserRank.cs">
+      <DependentUpon>GestioUsuaris.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tlr_controls\TLR_Controls.csproj">
@@ -79,12 +150,66 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Gestio_Categoria_Usuari.resx">
+      <DependentUpon>Gestio_Categoria_Usuari.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Gestio_Especies.resx">
       <DependentUpon>Gestio_Especies.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Gestio_Planets.resx">
       <DependentUpon>Gestio_Planets.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Gestio_Usuari.resx">
+      <DependentUpon>Gestio_Usuari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Options.resx">
+      <DependentUpon>Menu_Options.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CategoriesUsuari.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CategoriesUsuari.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="CategoriesUsuari.edmx.diagram">
+      <DependentUpon>CategoriesUsuari.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="GestioUsuaris.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>GestioUsuaris.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="GestioUsuaris.edmx.diagram">
+      <DependentUpon>GestioUsuaris.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CategoriesUsuari.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CategoriesUsuari.Context.cs</LastGenOutput>
+      <DependentUpon>CategoriesUsuari.edmx</DependentUpon>
+    </Content>
+    <Content Include="CategoriesUsuari.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CategoriesUsuari.edmx</DependentUpon>
+      <LastGenOutput>CategoriesUsuari.cs</LastGenOutput>
+    </Content>
+    <Content Include="GestioUsuaris.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GestioUsuaris.edmx</DependentUpon>
+      <LastGenOutput>GestioUsuaris.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="GestioUsuaris.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>GestioUsuaris.edmx</DependentUpon>
+      <LastGenOutput>GestioUsuaris.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

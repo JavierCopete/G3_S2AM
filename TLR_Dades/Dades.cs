@@ -94,6 +94,7 @@ namespace TLR_Dades
         {
             Connectar();
             conn.Open();
+
             SqlCommand cmd;
             cmd = new SqlCommand(consulta, conn);
             int registresAfectats = cmd.ExecuteNonQuery();

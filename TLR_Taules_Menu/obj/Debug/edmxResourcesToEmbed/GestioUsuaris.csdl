@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GestioUsuarisModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Filiation">
+    <Key>
+      <PropertyRef Name="idFiliation" />
+    </Key>
+    <Property Name="idFiliation" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeFiliation" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescFiliations" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Planets" Relationship="Self.FK_Planets_Filiations" FromRole="Filiations" ToRole="Planets" />
+  </EntityType>
+  <EntityType Name="Planet">
+    <Key>
+      <PropertyRef Name="idPlanet" />
+    </Key>
+    <Property Name="idPlanet" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodePlanet" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescPlanet" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idSector" Type="Int32" />
+    <Property Name="long" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="lat" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="parsecs" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="idNatives" Type="Int32" />
+    <Property Name="idFiliation" Type="Int32" />
+    <Property Name="PlanetPicture" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="IPPlanet" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="PortPlanet" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <Property Name="PortPlanet1" Type="String" MaxLength="4" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Filiation" Relationship="Self.FK_Planets_Filiations" FromRole="Planets" ToRole="Filiations" />
+    <NavigationProperty Name="Sector" Relationship="Self.FK_Planets_Sectors" FromRole="Planets" ToRole="Sectors" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_Planets" FromRole="Planets" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Region">
+    <Key>
+      <PropertyRef Name="idRegion" />
+    </Key>
+    <Property Name="idRegion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeRegion" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescRegion" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Remarks" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Sectors" Relationship="Self.FK_Sectors_Regions" FromRole="Regions" ToRole="Sectors" />
+  </EntityType>
+  <EntityType Name="Sector">
+    <Key>
+      <PropertyRef Name="idSector" />
+    </Key>
+    <Property Name="idSector" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeSector" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescSector" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Remarks" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="idRegion" Type="Int32" />
+    <NavigationProperty Name="Planets" Relationship="Self.FK_Planets_Sectors" FromRole="Sectors" ToRole="Planets" />
+    <NavigationProperty Name="Region" Relationship="Self.FK_Sectors_Regions" FromRole="Sectors" ToRole="Regions" />
+  </EntityType>
+  <EntityType Name="UserCategory">
+    <Key>
+      <PropertyRef Name="idUserCategory" />
+    </Key>
+    <Property Name="idUserCategory" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeCategory" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescCategory" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AccessLevel" Type="Int32" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_UserCategories" FromRole="UserCategories" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserRank">
+    <Key>
+      <PropertyRef Name="idUserRank" />
+    </Key>
+    <Property Name="idUserRank" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeRank" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DescRank" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_UserRanks" FromRole="UserRanks" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="idUser" />
+    </Key>
+    <Property Name="idUser" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CodeUser" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Login" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="idUserRank" Type="Int32" />
+    <Property Name="idUserCategory" Type="Int32" />
+    <Property Name="Photo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="idPlanet" Type="Int32" />
+    <Property Name="idSpecie" Type="Int32" />
+    <NavigationProperty Name="Planet" Relationship="Self.FK_Users_Planets" FromRole="Users" ToRole="Planets" />
+    <NavigationProperty Name="UserCategory" Relationship="Self.FK_Users_UserCategories" FromRole="Users" ToRole="UserCategories" />
+    <NavigationProperty Name="UserRank" Relationship="Self.FK_Users_UserRanks" FromRole="Users" ToRole="UserRanks" />
+  </EntityType>
+  <Association Name="FK_Planets_Filiations">
+    <End Role="Filiations" Type="Self.Filiation" Multiplicity="0..1" />
+    <End Role="Planets" Type="Self.Planet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Filiations">
+        <PropertyRef Name="idFiliation" />
+      </Principal>
+      <Dependent Role="Planets">
+        <PropertyRef Name="idFiliation" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Planets_Sectors">
+    <End Role="Sectors" Type="Self.Sector" Multiplicity="0..1" />
+    <End Role="Planets" Type="Self.Planet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sectors">
+        <PropertyRef Name="idSector" />
+      </Principal>
+      <Dependent Role="Planets">
+        <PropertyRef Name="idSector" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_Planets">
+    <End Role="Planets" Type="Self.Planet" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Planets">
+        <PropertyRef Name="idPlanet" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="idPlanet" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Sectors_Regions">
+    <End Role="Regions" Type="Self.Region" Multiplicity="0..1" />
+    <End Role="Sectors" Type="Self.Sector" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Regions">
+        <PropertyRef Name="idRegion" />
+      </Principal>
+      <Dependent Role="Sectors">
+        <PropertyRef Name="idRegion" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_UserCategories">
+    <End Role="UserCategories" Type="Self.UserCategory" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserCategories">
+        <PropertyRef Name="idUserCategory" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="idUserCategory" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_UserRanks">
+    <End Role="UserRanks" Type="Self.UserRank" Multiplicity="0..1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRanks">
+        <PropertyRef Name="idUserRank" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="idUserRank" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GestioUsuarisEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Filiations" EntityType="Self.Filiation" />
+    <EntitySet Name="Planets" EntityType="Self.Planet" />
+    <EntitySet Name="Regions" EntityType="Self.Region" />
+    <EntitySet Name="Sectors" EntityType="Self.Sector" />
+    <EntitySet Name="UserCategories" EntityType="Self.UserCategory" />
+    <EntitySet Name="UserRanks" EntityType="Self.UserRank" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Planets_Filiations" Association="Self.FK_Planets_Filiations">
+      <End Role="Filiations" EntitySet="Filiations" />
+      <End Role="Planets" EntitySet="Planets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Planets_Sectors" Association="Self.FK_Planets_Sectors">
+      <End Role="Sectors" EntitySet="Sectors" />
+      <End Role="Planets" EntitySet="Planets" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_Planets" Association="Self.FK_Users_Planets">
+      <End Role="Planets" EntitySet="Planets" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Sectors_Regions" Association="Self.FK_Sectors_Regions">
+      <End Role="Regions" EntitySet="Regions" />
+      <End Role="Sectors" EntitySet="Sectors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_UserCategories" Association="Self.FK_Users_UserCategories">
+      <End Role="UserCategories" EntitySet="UserCategories" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_UserRanks" Association="Self.FK_Users_UserRanks">
+      <End Role="UserRanks" EntitySet="UserRanks" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

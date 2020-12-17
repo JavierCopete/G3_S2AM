@@ -49,7 +49,6 @@
     <Compile Include="BaseTaulaForanea.Designer.cs">
       <DependentUpon>BaseTaulaForanea.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="BaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
