@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="08bd98ef6398439e833b703510a435ec" Name="Diagram1">
+        <EntityTypeShape EntityType="EDISecureCoreModel.Agency" Width="1.5" PointX="2.625" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.Factory" Width="1.5" PointX="9.625" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.OperationalArea" Width="1.5" PointX="2.5" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.OrderInfo" Width="1.5" PointX="2.5" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.Order" Width="1.5" PointX="5.625" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.OrdersDetail" Width="1.5" PointX="5.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.Planet" Width="1.5" PointX="9.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.Priority" Width="1.5" PointX="5.625" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EDISecureCoreModel.Reference" Width="1.5" PointX="7.875" PointY="2" IsExpanded="true" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrderInfo_Agencies" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_Orders_Factories" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrderInfo_OperationalAreas" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrderInfo_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_Orders_Priority" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrdersDetail_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrdersDetail_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="EDISecureCoreModel.FK_OrdersDetail_References" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

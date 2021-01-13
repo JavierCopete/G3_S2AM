@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="57fc8decb66a4a7684ce4f1cac188705" Name="Diagram1">
+        <EntityTypeShape EntityType="GestioUsuarisModel.Filiation" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.Planet" Width="1.5" PointX="5.25" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.Region" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.Sector" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.UserCategory" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.UserRank" Width="1.5" PointX="5.25" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestioUsuarisModel.User" Width="1.5" PointX="7.5" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Planets_Filiations" ManuallyRouted="false" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Planets_Sectors" ManuallyRouted="false" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Users_Planets" ManuallyRouted="false" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Sectors_Regions" ManuallyRouted="false" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Users_UserCategories" ManuallyRouted="false" />
+        <AssociationConnector Association="GestioUsuarisModel.FK_Users_UserRanks" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

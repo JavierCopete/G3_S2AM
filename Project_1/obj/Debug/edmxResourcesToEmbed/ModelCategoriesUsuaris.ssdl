@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserCategoriesModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="UserCategories">
+    <Key>
+      <PropertyRef Name="idUserCategory" />
+    </Key>
+    <Property Name="idUserCategory" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodeCategory" Type="nvarchar" MaxLength="12" />
+    <Property Name="DescCategory" Type="nvarchar" MaxLength="50" />
+    <Property Name="AccessLevel" Type="int" />
+  </EntityType>
+  <EntityContainer Name="UserCategoriesModelStoreContainer">
+    <EntitySet Name="UserCategories" EntityType="Self.UserCategories" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
