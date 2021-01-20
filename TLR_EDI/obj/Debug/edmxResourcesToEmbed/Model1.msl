@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EDISecureCoreModelStoreContainer" CdmEntityContainer="EDISecureCoreEntities">
+    <EntitySetMapping Name="Agencies">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Agency">
+        <MappingFragment StoreEntitySet="Agencies">
+          <ScalarProperty Name="idAgency" ColumnName="idAgency" />
+          <ScalarProperty Name="CodeAgency" ColumnName="CodeAgency" />
+          <ScalarProperty Name="DescAgency" ColumnName="DescAgency" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Factories">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Factory">
+        <MappingFragment StoreEntitySet="Factories">
+          <ScalarProperty Name="idFactory" ColumnName="idFactory" />
+          <ScalarProperty Name="codeFactory" ColumnName="codeFactory" />
+          <ScalarProperty Name="DescFactory" ColumnName="DescFactory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OperationalAreas">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.OperationalArea">
+        <MappingFragment StoreEntitySet="OperationalAreas">
+          <ScalarProperty Name="idOperationalArea" ColumnName="idOperationalArea" />
+          <ScalarProperty Name="CodeOperationalArea" ColumnName="CodeOperationalArea" />
+          <ScalarProperty Name="DescOperationalArea" ColumnName="DescOperationalArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderInfoes">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.OrderInfo">
+        <MappingFragment StoreEntitySet="OrderInfo">
+          <ScalarProperty Name="idOrderInfo" ColumnName="idOrderInfo" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idAgency" ColumnName="idAgency" />
+          <ScalarProperty Name="idOperationalArea" ColumnName="idOperationalArea" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Orders">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Order">
+        <MappingFragment StoreEntitySet="Orders">
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="codeOrder" ColumnName="codeOrder" />
+          <ScalarProperty Name="dateOrder" ColumnName="dateOrder" />
+          <ScalarProperty Name="IdPriority" ColumnName="IdPriority" />
+          <ScalarProperty Name="IdFactory" ColumnName="IdFactory" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrdersDetails">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.OrdersDetail">
+        <MappingFragment StoreEntitySet="OrdersDetail">
+          <ScalarProperty Name="idOrderDetail" ColumnName="idOrderDetail" />
+          <ScalarProperty Name="idOrder" ColumnName="idOrder" />
+          <ScalarProperty Name="idPlanet" ColumnName="idPlanet" />
+          <ScalarProperty Name="idReference" ColumnName="idReference" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="DeliveryDate" ColumnName="DeliveryDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Planets">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Planet">
+        <MappingFragment StoreEntitySet="Planets">
+          <ScalarProperty Name="idPlanet" ColumnName="idPlanet" />
+          <ScalarProperty Name="CodePlanet" ColumnName="CodePlanet" />
+          <ScalarProperty Name="DescPlanet" ColumnName="DescPlanet" />
+          <ScalarProperty Name="idSector" ColumnName="idSector" />
+          <ScalarProperty Name="long" ColumnName="long" />
+          <ScalarProperty Name="lat" ColumnName="lat" />
+          <ScalarProperty Name="parsecs" ColumnName="parsecs" />
+          <ScalarProperty Name="idSpecie" ColumnName="idSpecie" />
+          <ScalarProperty Name="idFiliation" ColumnName="idFiliation" />
+          <ScalarProperty Name="PlanetPicture" ColumnName="PlanetPicture" />
+          <ScalarProperty Name="IPPlanet" ColumnName="IPPlanet" />
+          <ScalarProperty Name="PortPlanet" ColumnName="PortPlanet" />
+          <ScalarProperty Name="PortPlanet1" ColumnName="PortPlanet1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Priorities">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Priority">
+        <MappingFragment StoreEntitySet="Priority">
+          <ScalarProperty Name="idPriority" ColumnName="idPriority" />
+          <ScalarProperty Name="CodePriority" ColumnName="CodePriority" />
+          <ScalarProperty Name="DescPriority" ColumnName="DescPriority" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="References">
+      <EntityTypeMapping TypeName="EDISecureCoreModel.Reference">
+        <MappingFragment StoreEntitySet="References">
+          <ScalarProperty Name="idReference" ColumnName="idReference" />
+          <ScalarProperty Name="codeReference" ColumnName="codeReference" />
+          <ScalarProperty Name="descReference" ColumnName="descReference" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="VideoExplode" ColumnName="VideoExplode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

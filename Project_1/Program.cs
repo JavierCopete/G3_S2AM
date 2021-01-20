@@ -4,7 +4,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TLR_EDI;
-
 namespace Project_1
 {
     static class Program
@@ -17,7 +16,7 @@ namespace Project_1
         {
             //Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EDI());
+            Application.Run(new Log_in());
         }
     }
 }

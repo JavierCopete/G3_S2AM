@@ -89,12 +89,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TLR_Identificador1.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>TLR_Identificador.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
     <EmbeddedResource Include="Log_in.resx">
       <DependentUpon>Log_in.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,10 +108,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="TLR_Identificador.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>TLR_Identificador1.cs</LastGenOutput>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -247,9 +237,17 @@
       <Project>{122d07b2-ff89-4aba-816e-921d036c43e1}</Project>
       <Name>TLR_Controls</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TLR_Crystal\TLR_Crystal.csproj">
+      <Project>{e669e68a-5ac9-4c6e-948c-4bbd5e06fd80}</Project>
+      <Name>TLR_Crystal</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TLR_Dades\TLR_Dades.csproj">
       <Project>{dbae1ca3-1d0f-4209-ba72-fcacb76333bc}</Project>
       <Name>TLR_Dades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TLR_Descarga\TLR_Descarga.csproj">
+      <Project>{25779c33-80bf-4f3d-a2e9-3a17cbbd77ef}</Project>
+      <Name>TLR_Descarga</Name>
     </ProjectReference>
     <ProjectReference Include="..\TLR_EDI\TLR_EDI.csproj">
       <Project>{5cfc6510-1068-46af-a1a5-e510a08af303}</Project>
@@ -258,6 +256,10 @@
     <ProjectReference Include="..\TLR_Forms\TLR_Forms.csproj">
       <Project>{314d08cf-4e9a-40f0-8b89-d36549ff4bd6}</Project>
       <Name>TLR_Forms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TLR_FTP\TLR_FTP.csproj">
+      <Project>{f452d51c-f6d4-4d14-978b-47b33bc11d0b}</Project>
+      <Name>TLR_FTP</Name>
     </ProjectReference>
     <ProjectReference Include="..\TLR_Taules_Menu\TLR_Taules_Menu.csproj">
       <Project>{ec58c901-1ecb-481d-a0bb-7976e5c61e94}</Project>

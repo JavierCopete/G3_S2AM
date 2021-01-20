@@ -1,0 +1,10 @@
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_FTP.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_FTP.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.FTP.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.csproj.CopyComplete
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_FTP\obj\Debug\TLR_FTP.Properties.Resources.resources

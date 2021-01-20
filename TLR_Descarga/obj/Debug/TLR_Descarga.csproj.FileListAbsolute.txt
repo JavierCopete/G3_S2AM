@@ -1,0 +1,14 @@
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\bin\Debug\TLR_Descarga.exe.config
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\bin\Debug\TLR_Descarga.exe
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\bin\Debug\TLR_Descarga.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Descarga.exe.config
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Descarga.exe.manifest
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Descarga.application
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Descarga.exe
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Descarga.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.exe.manifest
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.application
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.exe
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Descarga\obj\Debug\TLR_Descarga.csprojAssemblyReference.cache

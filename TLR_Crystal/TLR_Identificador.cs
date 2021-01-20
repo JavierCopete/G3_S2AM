@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Project_1 {
+namespace TLR_Crystal {
     using System;
     using System.ComponentModel;
     using CrystalDecisions.Shared;
@@ -41,7 +41,7 @@ namespace Project_1 {
         
         public override string FullResourceName {
             get {
-                return "Project_1.TLR_Identificador.rpt";
+                return "TLR_Crystal.TLR_Identificador.rpt";
             }
             set {
                 // Do nothing
@@ -85,6 +85,14 @@ namespace Project_1 {
         public CrystalDecisions.CrystalReports.Engine.Section Section5 {
             get {
                 return this.ReportDefinition.Sections[4];
+            }
+        }
+        
+        [Browsable(false)]
+        [DesignerSerializationVisibilityAttribute(System.ComponentModel.DesignerSerializationVisibility.Hidden)]
+        public CrystalDecisions.Shared.IParameterField Parameter_idUser {
+            get {
+                return this.DataDefinition.ParameterFields[0];
             }
         }
     }

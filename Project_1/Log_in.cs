@@ -14,10 +14,13 @@ namespace Project_1
 {
     public partial class Log_in : Form
     {
+        public static string idUser;
+
         public Log_in()
         {
             InitializeComponent();
         }
+
         int Error = 0;
         int contador_s = 0;
 
@@ -36,6 +39,7 @@ namespace Project_1
             string queryUsers = "select * from Users where " +
                 "Login = '" + txtUsuari.Text + "' and Hash = '" + Hash + "'";
             DataSet dtsUsers = bbdd.PortarPerConsulta(queryUsers);
+            idUser = dtsUsers.Tables[0].Rows[0][0].ToString();
 
             if (dtsUsers.Tables[0].Rows.Count > 0)
             {
@@ -73,6 +77,7 @@ namespace Project_1
             {
                 Menu_usuari obj = new Menu_usuari();
                 obj.nom_user = txtUsuari.Text;
+                obj.idUser = idUser;
                 obj.Show();
                 this.Hide();
             }

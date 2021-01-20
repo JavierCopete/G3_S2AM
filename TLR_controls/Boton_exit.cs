@@ -28,8 +28,9 @@ namespace Tlr_controls
 
         private void Boton_exit_Click(object sender, EventArgs e)
         {
-            Form frm = this.FindForm();
-            frm.Close();
+            //Form frm = this.FindForm();
+            //frm.Close();
+            Application.Exit();
         }
     }
 }

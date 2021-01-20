@@ -34,11 +34,11 @@ namespace TLR_EDI
             // 
             // btnEDI
             // 
-            this.btnEDI.Location = new System.Drawing.Point(391, 230);
+            this.btnEDI.Location = new System.Drawing.Point(318, 183);
             this.btnEDI.Name = "btnEDI";
-            this.btnEDI.Size = new System.Drawing.Size(75, 23);
+            this.btnEDI.Size = new System.Drawing.Size(131, 74);
             this.btnEDI.TabIndex = 0;
-            this.btnEDI.Text = "button1";
+            this.btnEDI.Text = "Tractar EDI";
             this.btnEDI.UseVisualStyleBackColor = true;
             this.btnEDI.Click += new System.EventHandler(this.btnEDI_Click);
             // 
@@ -49,7 +49,6 @@ namespace TLR_EDI
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnEDI);
             this.Name = "EDI";
-            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }

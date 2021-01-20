@@ -20,14 +20,10 @@ namespace Project_1
             InitializeComponent();
         }
         public string nom_user;
+        public string idUser;
 
         DataSet dts;
-        string DLL, Form, TextBoto;
-
-        private void tlpButtons_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+        string DLL, Form, TextBoto, AccessLevel;
 
         private void Menu_usuari_Load(object sender, EventArgs e)
         {
@@ -37,18 +33,28 @@ namespace Project_1
             string query = "select * from Menu";
             dts = bbdd.PortarPerConsulta(query);
 
+            string queryAcces = "select AccessLevel from UserCategories, Users " +
+                "where Users.idUserCategory = UserCategories.idUserCategory and idUser = '" + idUser + "'";
+            DataSet dtsnivell = bbdd.PortarPerConsulta(queryAcces);
+            string nivell = idUser = dtsnivell.Tables[0].Rows[0][0].ToString();
+
             foreach (DataRow dr in dts.Tables[0].Rows)
             {
                 DLL = dr["DLL"].ToString();
                 Form = dr["Form"].ToString();
                 TextBoto = dr["TextBoto"].ToString();
-                SW_LLenca btn = new SW_LLenca();
+                AccessLevel = dr["AccessLevel"].ToString();
+                
+                if(int.Parse(AccessLevel) <= int.Parse(nivell))
+                {
+                    SW_LLenca btn = new SW_LLenca();
 
-                btn.Text = TextBoto;
-                btn.Form = Form;
-                btn.DLL = DLL;
+                    btn.Text = TextBoto;
+                    btn.Form = Form;
+                    btn.DLL = DLL;
 
-                tlpButtons.Controls.Add(btn);
+                    tlpButtons.Controls.Add(btn);
+                }   
             }            
         }
     }

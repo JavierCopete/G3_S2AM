@@ -26,14 +26,6 @@ C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\TLR_Forms.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\TLR_Forms.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\Tlr_controls.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\Tlr_controls.pdb
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\Tlr_Forms.csprojAssemblyReference.cache
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseForm.resources
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaSimple.resources
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\Tlr_Forms.csproj.GenerateResource.cache
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\Tlr_Forms.csproj.CoreCompileInputs.cache
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\Tlr_Forms.csproj.CopyComplete
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.dll
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.pdb
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\Biblioteca_Dades.dll
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\bin\Debug\Biblioteca_Dades.pdb
 C:\Users\Edu\Desktop\G3_S2AM-master\TLR_Forms\bin\Debug\TLR_Forms.dll
@@ -61,8 +53,6 @@ C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInp
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Edu\Desktop\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.pdb
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.dll
-C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.pdb
 C:\Users\Usuario\source\repos\DLL\TLR_Forms.dll
 C:\Users\Usuario\source\repos\DLL\TLR_Forms.pdb
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csprojAssemblyReference.cache
@@ -74,4 +64,14 @@ C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileIn
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.dll
 C:\Users\Usuario\source\repos\TLR_Forms\obj\Debug\TLR_Forms.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\DLL\TLR_Forms.pdb
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csprojAssemblyReference.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseForm.resources
 C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaForanea.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.BaseTaulaSimple.resources
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.GenerateResource.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CoreCompileInputs.cache
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.csproj.CopyComplete
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.dll
+C:\Users\Edu\Desktop\Copias GitHub\G3_S2AM\TLR_Forms\obj\Debug\TLR_Forms.pdb
